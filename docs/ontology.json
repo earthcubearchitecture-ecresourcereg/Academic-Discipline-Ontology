@@ -1,0 +1,2009 @@
+[ {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact" : [ {
+    "@language" : "en",
+    "@value" : "Ruth Duerr (ruth duerr3 gmail com)"
+  } ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole" : [ {
+    "@value" : "Ontology Producer"
+  } ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation" : [ {
+    "@value" : "Duerr, R., 2019, \"Academic Resource Ontology\", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/~rduerr/ADO"
+  } ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired" : [ {
+    "@value" : "yes"
+  } ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType" : [ {
+    "@value" : "text/turtle"
+  } ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager" : [ {
+    "@value" : "None"
+  } ],
+  "http://omv.ontoware.org/2005/05/ontology#hasCreator" : [ {
+    "@value" : "Ruth Duerr"
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@id" : "https://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "This ontology defines academic disciplines according to the Wikipedia article https://en.wikipedia.org/wiki/Outline_of_academic_disciplines.  Disciplines are given as a multi-level hierarchy where some disciplines may show up under more than one upper level term (e.g., biogeology shows up as a child of both biology and geology).  Given that the NSF EarthCube program that led to this ontology is concentrated on the Geosciences, areas relevant to EarthCube were fully fleshed out beyond the first level in the hierarchy.  Contributions from others for other disciplines based on the wikipedia article are welcomed.  See https://github.com/earthcubearchitecture-ecresourcereg/Utility-Ontologies to contribute."
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "Academic Dsciplines Ontology"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "http://creativecommons.org/licenses/by-sa/4.0/"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@value" : "2019-09-10T23:32:13Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "Wikipedia contributors, \"Outline of academic disciplines,\" Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Outline_of_academic_disciplines&oldid=914175720 (accessed September 16, 2019)."
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:09:52Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "academic discipline"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:10:43Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "humanities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:10:53Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "arts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:11:27Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "performing arts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000003"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:12:12Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "visual arts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000003"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:12:26Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "history"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:14:37Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "languages and literature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:14:46Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "law"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000009",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:14:56Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "philosophy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:15:08Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "theology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:15:25Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "social sciences"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000012",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:15:38Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "anthropology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000013",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:15:48Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "archaeology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000014",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:15:57Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "economics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:16:09Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "human geography"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:16:19Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "political science"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000017",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:16:32Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "psychology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000018",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:16:39Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sociology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:16:57Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "natural sciences"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:47:03Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "earth science"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000022",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:47:16Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "space science"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000023",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:47:27Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "formal sciences"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000024",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:47:36Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "applied sciences"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000026",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:52:26Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "business"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000024"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000027",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-27T23:52:38Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "engineering and technology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000024"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000028",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-28T00:12:11Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "environmental science"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000029",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T21:23:09Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "environmental chemistry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000028"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000030",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T21:24:44Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geochemistry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  }, {
+    "@id" : "http://edamontology.org/topic_3314"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000031",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T21:26:03Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geodesy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021"
+  }, {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T21:26:24Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "physical geography"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T21:27:17Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "atmospheric science"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000034",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T21:33:03Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "meteorology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000035",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T21:33:03Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "climatology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000036",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T21:33:03Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "atmospheric physics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000037",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T21:33:03Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "atmospheric chemistry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000038",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T21:33:03Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "atmospheric dynamics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000039",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T21:37:23Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "biogeography"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000040",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T21:37:48Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "phytogeography"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000039"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000041",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T21:38:18Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "zoogeography"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000039"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000043",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T21:51:55Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "paleoclimatology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000035"
+  }, {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000044",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T21:54:46Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "palaeogeopgraphy"
+  }, {
+    "@value" : "paleogeomorphology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "paleogeography"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000045",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T21:57:51Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "coastal geography"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:07:54Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "oceanography"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000047",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:08:16Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@language" : "en",
+    "@value" : "marine biology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "biological oceanography"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000048",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:08:29Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "chemical oceanography"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000049",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:08:43Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geological oceanography"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000050",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:08:56Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "physical oceanography"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000051",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:10:48Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "paleoceanography"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000052",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:12:06Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "soil science"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000053",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:12:21Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "edaphology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000052"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000054",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:12:30Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pedology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000052"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000055",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:15:11Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geobiology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:17:04Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000057",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "biogeology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000058",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "economic geology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000059",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "engineering geology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000060",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "environmental geology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000061",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geologic modeling"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000062",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geomorphology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geophysics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021"
+  }, {
+    "@id" : "http://edamontology.org/topic_3318"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000064",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "historical geology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000065",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "marine geology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000066",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mineralogy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000067",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mining geology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000069",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "petroleum geology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000070",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "petrology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000071",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sedimentology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000072",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "stratigraphy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000073",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "structural geology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000074",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:22:05Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "volcanology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000075",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:28:06Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "speleology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000076",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:28:15Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tectonics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000077",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:29:35Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geostatistics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  }, {
+    "@id" : "http://edamontology.org/topic_2269"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000078",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:30:49Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "glaciology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:33:44Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hydrology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000080",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:35:13Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "chemical hydrology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000081",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:35:13Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ecohydrology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000082",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:35:13Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "@language" : "en",
+    "@value" : "geohydrology"
+  }, {
+    "@language" : "en",
+    "@value" : "groundwater hydrology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hydrogeology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000083",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:35:13Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hydroinformatics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000084",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:35:13Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hydrometeorology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000085",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:35:13Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isotope hydrology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000086",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:35:13Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "surface hydrology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000087",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:36:44Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "limnology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000088",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:40:11Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "landscape ecology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032"
+  }, {
+    "@id" : "http://edamontology.org/topic_0610"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000089",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:41:10Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "quaternary science"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000090",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:49:19Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "biogeophysics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000091",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:49:19Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "exploration geophysics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000092",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:49:19Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geophysical fluid dynamics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000093",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:49:19Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geodynamics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000094",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:49:19Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geomagnetism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000095",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:49:19Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mathematical geophysics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000096",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:49:19Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mineral physics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000097",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:49:19Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "near-surface geophysics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000098",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:49:19Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "paleomagnetism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000099",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:49:19Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "seisomology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:49:19Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tectonophysics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T22:59:24Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "paleontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021"
+  }, {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000102",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T23:01:44Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "vertebrate paleontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000103",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T23:01:55Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "invertebrate paleontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000104",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T23:03:31Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "paleobotany"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000105",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T23:03:31Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "palynology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000106",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T23:03:31Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "micropaleontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000107",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T23:03:31Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "paleoecology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000108",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T23:03:31Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "biostratigraphy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000109",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-08-29T23:05:08Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "paleobiology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000188",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-09-06T22:42:53Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "discipline agnostic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ECCRO_0000309",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-09-30T21:51:54Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "magnetotellurics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063"
+  } ]
+}, {
+  "@id" : "http://edamontology.org/topic_0610",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://edamontology.org/topic_0610"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ecology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://edamontology.org/topic_3070"
+  } ]
+}, {
+  "@id" : "http://edamontology.org/topic_2269",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://edamontology.org/topic_2269"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "statistics and probability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000023"
+  } ]
+}, {
+  "@id" : "http://edamontology.org/topic_3070",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://edamontology.org/topic_3070"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "biology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019"
+  } ]
+}, {
+  "@id" : "http://edamontology.org/topic_3314",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://edamontology.org/topic_3314"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/chemistry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019"
+  } ]
+}, {
+  "@id" : "http://edamontology.org/topic_3318",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://edamontology.org/topic_3318"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "physics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019"
+  } ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://omv.ontoware.org/2005/05/ontology#hasCreator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "definition"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "definition source"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

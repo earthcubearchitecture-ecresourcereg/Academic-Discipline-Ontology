@@ -1,0 +1,876 @@
+<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact> "Ruth Duerr (ruth duerr3 gmail com)"@en .
+<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole> "Ontology Producer" .
+<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation> "Duerr, R., 2019, \"Academic Resource Ontology\", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/~rduerr/ADO" .
+<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired> "yes" .
+<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType> "text/turtle" .
+<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager> "None" .
+<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://omv.ontoware.org/2005/05/ontology#hasCreator> "Ruth Duerr" .
+<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://purl.org/dc/elements/1.1/description> "This ontology defines academic disciplines according to the Wikipedia article https://en.wikipedia.org/wiki/Outline_of_academic_disciplines.  Disciplines are given as a multi-level hierarchy where some disciplines may show up under more than one upper level term (e.g., biogeology shows up as a child of both biology and geology).  Given that the NSF EarthCube program that led to this ontology is concentrated on the Geosciences, areas relevant to EarthCube were fully fleshed out beyond the first level in the hierarchy.  Contributions from others for other disciplines based on the wikipedia article are welcomed.  See https://github.com/earthcubearchitecture-ecresourcereg/Utility-Ontologies to contribute." .
+<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://purl.org/dc/elements/1.1/title> "Academic Dsciplines Ontology" .
+<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-10T23:32:13Z" .
+<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "Wikipedia contributors, \"Outline of academic disciplines,\" Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Outline_of_academic_disciplines&oldid=914175720 (accessed September 16, 2019)." .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://omv.ontoware.org/2005/05/ontology#hasCreator
+<http://omv.ontoware.org/2005/05/ontology#hasCreator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000115
+<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.w3.org/2000/01/rdf-schema#label> "definition" .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000119
+<http://purl.obolibrary.org/obo/IAO_0000119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000119> <http://www.w3.org/2000/01/rdf-schema#label> "definition source" .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#created_by
+<http://www.geneontology.org/formats/oboInOwl#created_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#creation_date
+<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:09:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001> <http://www.w3.org/2000/01/rdf-schema#label> "academic discipline"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:10:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002> <http://www.w3.org/2000/01/rdf-schema#label> "humanities"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000003
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000003> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000003> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:10:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000003> <http://www.w3.org/2000/01/rdf-schema#label> "arts"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000004
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000003> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000004> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000004> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:11:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000004> <http://www.w3.org/2000/01/rdf-schema#label> "performing arts"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000005
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000003> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000005> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000005> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:12:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000005> <http://www.w3.org/2000/01/rdf-schema#label> "visual arts"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000006
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000006> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000006> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000006> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:12:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000006> <http://www.w3.org/2000/01/rdf-schema#label> "history"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000007
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000007> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000007> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000007> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:14:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000007> <http://www.w3.org/2000/01/rdf-schema#label> "languages and literature"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000008
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000008> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000008> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000008> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:14:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000008> <http://www.w3.org/2000/01/rdf-schema#label> "law"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000009
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000009> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000009> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:14:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000009> <http://www.w3.org/2000/01/rdf-schema#label> "philosophy"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000010
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000010> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000010> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000010> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:15:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000010> <http://www.w3.org/2000/01/rdf-schema#label> "theology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:15:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011> <http://www.w3.org/2000/01/rdf-schema#label> "social sciences"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000012
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000012> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000012> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000012> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:15:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000012> <http://www.w3.org/2000/01/rdf-schema#label> "anthropology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000013
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000013> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000013> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000013> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:15:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000013> <http://www.w3.org/2000/01/rdf-schema#label> "archaeology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000014
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000014> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000014> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000014> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:15:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000014> <http://www.w3.org/2000/01/rdf-schema#label> "economics"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000015
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000015> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000015> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:16:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000015> <http://www.w3.org/2000/01/rdf-schema#label> "human geography"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000016
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000016> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000016> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000016> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:16:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000016> <http://www.w3.org/2000/01/rdf-schema#label> "political science"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000017
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000017> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000017> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000017> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:16:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000017> <http://www.w3.org/2000/01/rdf-schema#label> "psychology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000018
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000018> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000018> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000018> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:16:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000018> <http://www.w3.org/2000/01/rdf-schema#label> "sociology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:16:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019> <http://www.w3.org/2000/01/rdf-schema#label> "natural sciences"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:47:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021> <http://www.w3.org/2000/01/rdf-schema#label> "earth science"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000022
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000022> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000022> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000022> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:47:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000022> <http://www.w3.org/2000/01/rdf-schema#label> "space science"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000023
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000023> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000023> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000023> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:47:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000023> <http://www.w3.org/2000/01/rdf-schema#label> "formal sciences"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000024
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000024> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000024> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000024> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:47:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000024> <http://www.w3.org/2000/01/rdf-schema#label> "applied sciences"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000026
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000026> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000024> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000026> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000026> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:52:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000026> <http://www.w3.org/2000/01/rdf-schema#label> "business"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000027
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000027> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000024> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000027> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000027> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-27T23:52:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000027> <http://www.w3.org/2000/01/rdf-schema#label> "engineering and technology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000028
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000028> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000028> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000028> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-28T00:12:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000028> <http://www.w3.org/2000/01/rdf-schema#label> "environmental science"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000029
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000029> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000028> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000029> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000029> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T21:23:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000029> <http://www.w3.org/2000/01/rdf-schema#label> "environmental chemistry"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000030
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000030> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000030> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edamontology.org/topic_3314> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000030> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000030> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T21:24:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000030> <http://www.w3.org/2000/01/rdf-schema#label> "geochemistry"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000031
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000031> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000031> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000031> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000031> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T21:26:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000031> <http://www.w3.org/2000/01/rdf-schema#label> "geodesy"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T21:26:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> <http://www.w3.org/2000/01/rdf-schema#label> "physical geography"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T21:27:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033> <http://www.w3.org/2000/01/rdf-schema#label> "atmospheric science"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000034
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000034> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000034> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000034> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T21:33:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000034> <http://www.w3.org/2000/01/rdf-schema#label> "meteorology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000035
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000035> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000035> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000035> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T21:33:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000035> <http://www.w3.org/2000/01/rdf-schema#label> "climatology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000036
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000036> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000036> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000036> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T21:33:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000036> <http://www.w3.org/2000/01/rdf-schema#label> "atmospheric physics"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000037
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000037> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000037> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000037> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T21:33:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000037> <http://www.w3.org/2000/01/rdf-schema#label> "atmospheric chemistry"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000038
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000038> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000038> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000038> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T21:33:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000038> <http://www.w3.org/2000/01/rdf-schema#label> "atmospheric dynamics"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000039
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000039> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000039> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000039> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T21:37:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000039> <http://www.w3.org/2000/01/rdf-schema#label> "biogeography"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000040
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000040> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000039> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000040> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000040> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T21:37:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000040> <http://www.w3.org/2000/01/rdf-schema#label> "phytogeography"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000041
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000041> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000039> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000041> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000041> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T21:38:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000041> <http://www.w3.org/2000/01/rdf-schema#label> "zoogeography"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000043
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000043> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000035> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000043> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000043> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000043> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T21:51:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000043> <http://www.w3.org/2000/01/rdf-schema#label> "paleoclimatology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000044
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000044> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000044> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000044> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T21:54:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000044> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "palaeogeopgraphy" .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000044> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "paleogeomorphology" .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000044> <http://www.w3.org/2000/01/rdf-schema#label> "paleogeography"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000045
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000045> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000045> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000045> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T21:57:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000045> <http://www.w3.org/2000/01/rdf-schema#label> "coastal geography"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:07:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046> <http://www.w3.org/2000/01/rdf-schema#label> "oceanography"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000047
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000047> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000047> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000047> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:08:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000047> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "marine biology"@en .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000047> <http://www.w3.org/2000/01/rdf-schema#label> "biological oceanography"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000048
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000048> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000048> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000048> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:08:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000048> <http://www.w3.org/2000/01/rdf-schema#label> "chemical oceanography"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000049
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000049> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000049> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000049> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:08:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000049> <http://www.w3.org/2000/01/rdf-schema#label> "geological oceanography"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000050
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000050> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000050> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000050> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:08:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000050> <http://www.w3.org/2000/01/rdf-schema#label> "physical oceanography"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000051
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000051> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000051> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000051> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:10:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000051> <http://www.w3.org/2000/01/rdf-schema#label> "paleoceanography"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000052
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000052> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000052> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000052> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:12:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000052> <http://www.w3.org/2000/01/rdf-schema#label> "soil science"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000053
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000053> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000052> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000053> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000053> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:12:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000053> <http://www.w3.org/2000/01/rdf-schema#label> "edaphology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000054
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000054> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000052> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000054> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000054> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:12:30Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000054> <http://www.w3.org/2000/01/rdf-schema#label> "pedology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000055
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000055> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000055> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000055> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:15:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000055> <http://www.w3.org/2000/01/rdf-schema#label> "geobiology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:17:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> <http://www.w3.org/2000/01/rdf-schema#label> "geology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000057
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000057> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000057> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000057> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000057> <http://www.w3.org/2000/01/rdf-schema#label> "biogeology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000058
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000058> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000058> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000058> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000058> <http://www.w3.org/2000/01/rdf-schema#label> "economic geology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000059
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000059> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000059> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000059> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000059> <http://www.w3.org/2000/01/rdf-schema#label> "engineering geology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000060
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000060> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000060> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000060> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000060> <http://www.w3.org/2000/01/rdf-schema#label> "environmental geology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000061
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000061> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000061> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000061> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000061> <http://www.w3.org/2000/01/rdf-schema#label> "geologic modeling"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000062
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000062> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000062> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000062> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000062> <http://www.w3.org/2000/01/rdf-schema#label> "geomorphology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edamontology.org/topic_3318> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> <http://www.w3.org/2000/01/rdf-schema#label> "geophysics"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000064
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000064> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000064> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000064> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000064> <http://www.w3.org/2000/01/rdf-schema#label> "historical geology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000065
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000065> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000065> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000065> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000065> <http://www.w3.org/2000/01/rdf-schema#label> "marine geology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000066
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000066> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000066> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000066> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000066> <http://www.w3.org/2000/01/rdf-schema#label> "mineralogy"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000067
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000067> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000067> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000067> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000067> <http://www.w3.org/2000/01/rdf-schema#label> "mining geology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000069
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000069> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000069> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000069> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000069> <http://www.w3.org/2000/01/rdf-schema#label> "petroleum geology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000070
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000070> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000070> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000070> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000070> <http://www.w3.org/2000/01/rdf-schema#label> "petrology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000071
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000071> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000071> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000071> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000071> <http://www.w3.org/2000/01/rdf-schema#label> "sedimentology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000072
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000072> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000072> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000072> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000072> <http://www.w3.org/2000/01/rdf-schema#label> "stratigraphy"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000073
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000073> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000073> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000073> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000073> <http://www.w3.org/2000/01/rdf-schema#label> "structural geology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000074
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000074> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000074> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000074> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:22:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000074> <http://www.w3.org/2000/01/rdf-schema#label> "volcanology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000075
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000075> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000075> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000075> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:28:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000075> <http://www.w3.org/2000/01/rdf-schema#label> "speleology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000076
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000076> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000076> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000076> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:28:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000076> <http://www.w3.org/2000/01/rdf-schema#label> "tectonics"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000077
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000077> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000077> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edamontology.org/topic_2269> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000077> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000077> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:29:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000077> <http://www.w3.org/2000/01/rdf-schema#label> "geostatistics"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000078
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000078> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000078> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000078> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:30:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000078> <http://www.w3.org/2000/01/rdf-schema#label> "glaciology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:33:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079> <http://www.w3.org/2000/01/rdf-schema#label> "hydrology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000080
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000080> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000080> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000080> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:35:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000080> <http://www.w3.org/2000/01/rdf-schema#label> "chemical hydrology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000081
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000081> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000081> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000081> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:35:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000081> <http://www.w3.org/2000/01/rdf-schema#label> "ecohydrology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000082
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000082> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000082> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000082> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:35:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000082> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "geohydrology"@en .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000082> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "groundwater hydrology"@en .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000082> <http://www.w3.org/2000/01/rdf-schema#label> "hydrogeology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000083
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000083> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000083> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000083> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000083> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:35:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000083> <http://www.w3.org/2000/01/rdf-schema#label> "hydroinformatics"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000084
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000084> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000084> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000084> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000084> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:35:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000084> <http://www.w3.org/2000/01/rdf-schema#label> "hydrometeorology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000085
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000085> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000085> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000085> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000085> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:35:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000085> <http://www.w3.org/2000/01/rdf-schema#label> "isotope hydrology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000086
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000086> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000086> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000086> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:35:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000086> <http://www.w3.org/2000/01/rdf-schema#label> "surface hydrology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000087
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000087> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000087> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000087> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000087> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:36:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000087> <http://www.w3.org/2000/01/rdf-schema#label> "limnology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000088
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000088> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000088> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edamontology.org/topic_0610> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000088> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000088> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:40:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000088> <http://www.w3.org/2000/01/rdf-schema#label> "landscape ecology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000089
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000089> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000089> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000089> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:41:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000089> <http://www.w3.org/2000/01/rdf-schema#label> "quaternary science"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000090
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000090> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000090> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000090> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:49:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000090> <http://www.w3.org/2000/01/rdf-schema#label> "biogeophysics"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000091
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000091> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000091> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000091> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:49:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000091> <http://www.w3.org/2000/01/rdf-schema#label> "exploration geophysics"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000092
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000092> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000092> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000092> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000092> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:49:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000092> <http://www.w3.org/2000/01/rdf-schema#label> "geophysical fluid dynamics"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000093
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000093> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000093> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000093> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000093> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:49:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000093> <http://www.w3.org/2000/01/rdf-schema#label> "geodynamics"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000094
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000094> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000094> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000094> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000094> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:49:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000094> <http://www.w3.org/2000/01/rdf-schema#label> "geomagnetism"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000095
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000095> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000095> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000095> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000095> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:49:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000095> <http://www.w3.org/2000/01/rdf-schema#label> "mathematical geophysics"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000096
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000096> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000096> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000096> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:49:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000096> <http://www.w3.org/2000/01/rdf-schema#label> "mineral physics"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000097
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000097> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000097> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000097> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000097> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:49:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000097> <http://www.w3.org/2000/01/rdf-schema#label> "near-surface geophysics"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000098
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000098> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000098> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000098> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:49:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000098> <http://www.w3.org/2000/01/rdf-schema#label> "paleomagnetism"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000099
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000099> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000099> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000099> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000099> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:49:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000099> <http://www.w3.org/2000/01/rdf-schema#label> "seisomology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000100
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000100> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000100> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000100> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:49:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000100> <http://www.w3.org/2000/01/rdf-schema#label> "tectonophysics"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T22:59:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101> <http://www.w3.org/2000/01/rdf-schema#label> "paleontology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000102
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000102> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000102> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000102> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T23:01:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000102> <http://www.w3.org/2000/01/rdf-schema#label> "vertebrate paleontology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000103
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000103> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000103> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000103> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T23:01:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000103> <http://www.w3.org/2000/01/rdf-schema#label> "invertebrate paleontology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000104
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000104> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000104> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000104> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T23:03:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000104> <http://www.w3.org/2000/01/rdf-schema#label> "paleobotany"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000105
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000105> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000105> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000105> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T23:03:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000105> <http://www.w3.org/2000/01/rdf-schema#label> "palynology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000106
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000106> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000106> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000106> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T23:03:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000106> <http://www.w3.org/2000/01/rdf-schema#label> "micropaleontology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000107
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000107> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000107> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000107> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T23:03:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000107> <http://www.w3.org/2000/01/rdf-schema#label> "paleoecology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000108
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000108> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000108> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000108> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T23:03:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000108> <http://www.w3.org/2000/01/rdf-schema#label> "biostratigraphy"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000109
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000109> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000109> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000109> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-08-29T23:05:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000109> <http://www.w3.org/2000/01/rdf-schema#label> "paleobiology"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000188
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000188> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000188> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000188> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000188> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-06T22:42:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000188> <http://www.w3.org/2000/01/rdf-schema#label> "discipline agnostic"@en .
+# 
+# http://cor.esipfed.org/ont/~rduerr/ADO/ECCRO_0000309
+<http://cor.esipfed.org/ont/~rduerr/ADO/ECCRO_0000309> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ECCRO_0000309> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ECCRO_0000309> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ECCRO_0000309> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-30T21:51:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/~rduerr/ADO/ECCRO_0000309> <http://www.w3.org/2000/01/rdf-schema#label> "magnetotellurics"@en .
+# 
+# http://edamontology.org/topic_0610
+<http://edamontology.org/topic_0610> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://edamontology.org/topic_0610> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://edamontology.org/topic_3070> .
+<http://edamontology.org/topic_0610> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://edamontology.org/topic_0610> .
+<http://edamontology.org/topic_0610> <http://www.w3.org/2000/01/rdf-schema#label> "ecology" .
+# 
+# http://edamontology.org/topic_2269
+<http://edamontology.org/topic_2269> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://edamontology.org/topic_2269> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000023> .
+<http://edamontology.org/topic_2269> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://edamontology.org/topic_2269> .
+<http://edamontology.org/topic_2269> <http://www.w3.org/2000/01/rdf-schema#label> "statistics and probability"@en .
+# 
+# http://edamontology.org/topic_3070
+<http://edamontology.org/topic_3070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://edamontology.org/topic_3070> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019> .
+<http://edamontology.org/topic_3070> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://edamontology.org/topic_3070> .
+<http://edamontology.org/topic_3070> <http://www.w3.org/2000/01/rdf-schema#label> "biology" .
+# 
+# http://edamontology.org/topic_3314
+<http://edamontology.org/topic_3314> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://edamontology.org/topic_3314> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019> .
+<http://edamontology.org/topic_3314> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://edamontology.org/topic_3314> .
+<http://edamontology.org/topic_3314> <http://www.w3.org/2000/01/rdf-schema#label> <http://cor.esipfed.org/ont/~rduerr/ADO/chemistry> .
+# 
+# http://edamontology.org/topic_3318
+<http://edamontology.org/topic_3318> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://edamontology.org/topic_3318> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019> .
+<http://edamontology.org/topic_3318> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://edamontology.org/topic_3318> .
+<http://edamontology.org/topic_3318> <http://www.w3.org/2000/01/rdf-schema#label> "physics"@en .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
