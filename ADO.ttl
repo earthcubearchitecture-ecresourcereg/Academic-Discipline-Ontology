@@ -9,7 +9,7 @@
 @prefix oboinOwl: <http://www.geneontology.org/formats/oboInOwl#> .
 @base <http://cor.esipfed.org/ont/~rduerr/ADO/> .
 
-<http://cor.esipfed.org/ont/~rduerr/ADO/> rdf:type owl:Ontology ;
+<http://cor.esipfed.org/ont/~rduerr/ADO> rdf:type owl:Ontology ;
                                            <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact> "Ruth Duerr (ruth duerr3 gmail com)"@en ;
                                            <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole> "Ontology Producer" ;
                                            <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation> "Duerr, R., 2019, \"Academic Resource Ontology\", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/~rduerr/ADO" ;
