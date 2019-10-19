@@ -1,17 +1,17 @@
-<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact> "Ruth Duerr (ruth duerr3 gmail com)"@en .
-<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole> "Ontology Producer" .
-<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation> "Duerr, R., 2019, \"Academic Resource Ontology\", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/~rduerr/ADO" .
-<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired> "yes" .
-<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType> "text/turtle" .
-<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager> "None" .
-<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://omv.ontoware.org/2005/05/ontology#hasCreator> "Ruth Duerr" .
-<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-4808-4736> .
-<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://purl.org/dc/elements/1.1/description> "This ontology defines academic disciplines according to the Wikipedia article https://en.wikipedia.org/wiki/Outline_of_academic_disciplines.  Disciplines are given as a multi-level hierarchy where some disciplines may show up under more than one upper level term (e.g., biogeology shows up as a child of both biology and geology).  Given that the NSF EarthCube program that led to this ontology is concentrated on the Geosciences, areas relevant to EarthCube were fully fleshed out beyond the first level in the hierarchy.  Contributions from others for other disciplines based on the wikipedia article are welcomed.  See https://github.com/earthcubearchitecture-ecresourcereg/Utility-Ontologies to contribute." .
-<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://purl.org/dc/elements/1.1/title> "Academic disciplines Ontology" .
-<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by-sa/4.0/> .
-<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-10T23:32:13Z" .
-<http://cor.esipfed.org/ont/~rduerr/ADO/> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "Wikipedia contributors, \"Outline of academic disciplines,\" Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Outline_of_academic_disciplines&oldid=914175720 (accessed September 16, 2019)." .
+<http://cor.esipfed.org/ont/~rduerr/ADO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://cor.esipfed.org/ont/~rduerr/ADO> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact> "Ruth Duerr (ruth duerr3 gmail com)"@en .
+<http://cor.esipfed.org/ont/~rduerr/ADO> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole> "Ontology Producer" .
+<http://cor.esipfed.org/ont/~rduerr/ADO> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation> "Duerr, R., 2019, \"Academic Resource Ontology\", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/~rduerr/ADO" .
+<http://cor.esipfed.org/ont/~rduerr/ADO> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired> "yes" .
+<http://cor.esipfed.org/ont/~rduerr/ADO> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType> "text/turtle" .
+<http://cor.esipfed.org/ont/~rduerr/ADO> <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager> "None" .
+<http://cor.esipfed.org/ont/~rduerr/ADO> <http://omv.ontoware.org/2005/05/ontology#hasCreator> "Ruth Duerr" .
+<http://cor.esipfed.org/ont/~rduerr/ADO> <http://purl.org/dc/elements/1.1/creator> <https://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/~rduerr/ADO> <http://purl.org/dc/elements/1.1/description> "This ontology defines academic disciplines according to the Wikipedia article https://en.wikipedia.org/wiki/Outline_of_academic_disciplines.  Disciplines are given as a multi-level hierarchy where some disciplines may show up under more than one upper level term (e.g., biogeology shows up as a child of both biology and geology).  Given that the NSF EarthCube program that led to this ontology is concentrated on the Geosciences, areas relevant to EarthCube were fully fleshed out beyond the first level in the hierarchy.  Contributions from others for other disciplines based on the wikipedia article are welcomed.  See https://github.com/earthcubearchitecture-ecresourcereg/Utility-Ontologies to contribute." .
+<http://cor.esipfed.org/ont/~rduerr/ADO> <http://purl.org/dc/elements/1.1/title> "Academic disciplines Ontology" .
+<http://cor.esipfed.org/ont/~rduerr/ADO> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://cor.esipfed.org/ont/~rduerr/ADO> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-09-10T23:32:13Z" .
+<http://cor.esipfed.org/ont/~rduerr/ADO> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "Wikipedia contributors, \"Outline of academic disciplines,\" Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Outline_of_academic_disciplines&oldid=914175720 (accessed September 16, 2019)." .
 # 
 # 
 # #################################################################
@@ -82,6 +82,13 @@
 # #
 # #################################################################
 # 
+# 
+# http://cor.esipfed.org/ont/earthcube/RTE_000011
+<http://cor.esipfed.org/ont/earthcube/RTE_000011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/RTE_000011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000030> .
+<http://cor.esipfed.org/ont/earthcube/RTE_000011> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/RTE_000011> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-18T23:32:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/RTE_000011> <http://www.w3.org/2000/01/rdf-schema#label> "geochronology"@en .
 # 
 # http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001
 <http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

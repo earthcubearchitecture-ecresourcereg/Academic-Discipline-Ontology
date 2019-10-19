@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://cor.esipfed.org/ont/~rduerr/ADO/"
-     xml:base="http://cor.esipfed.org/ont/~rduerr/ADO/"
+<rdf:RDF xmlns="http://cor.esipfed.org/ont/~rduerr/ADO#"
+     xml:base="http://cor.esipfed.org/ont/~rduerr/ADO"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -12,7 +12,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ontology="http://omv.ontoware.org/2005/05/ontology#"
      xmlns:ontologyMetadata="http://mmisw.org/ont/mmi/20081020/ontologyMetadata/">
-    <owl:Ontology rdf:about="http://cor.esipfed.org/ont/~rduerr/ADO/">
+    <owl:Ontology rdf:about="http://cor.esipfed.org/ont/~rduerr/ADO">
         <ontologyMetadata:contact xml:lang="en">Ruth Duerr (ruth duerr3 gmail com)</ontologyMetadata:contact>
         <ontologyMetadata:contactRole>Ontology Producer</ontologyMetadata:contactRole>
         <ontologyMetadata:creditCitation>Duerr, R., 2019, &quot;Academic Resource Ontology&quot;, ESIP Community Ontology Repository, http://cor.esipfed.org/ont/~rduerr/ADO</ontologyMetadata:creditCitation>
@@ -174,6 +174,18 @@
      -->
 
 
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/RTE_000011 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/RTE_000011">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000030"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-18T23:32:20Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">geochronology</rdfs:label>
+    </owl:Class>
     
 
 

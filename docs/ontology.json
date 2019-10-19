@@ -1,5 +1,22 @@
 [ {
-  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/RTE_000011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-18T23:32:20Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geochronology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000030"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/~rduerr/ADO",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact" : [ {
     "@language" : "en",
