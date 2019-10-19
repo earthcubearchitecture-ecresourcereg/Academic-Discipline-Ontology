@@ -1,4 +1,4 @@
-@prefix : <http://cor.esipfed.org/ont/~rduerr/ADO/> .
+@prefix : <http://cor.esipfed.org/ont/earthcube/ADO/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -7,22 +7,23 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix oboinOwl: <http://www.geneontology.org/formats/oboInOwl#> .
-@base <http://cor.esipfed.org/ont/~rduerr/ADO> .
+@base <http://cor.esipfed.org/ont/earthcube/ADO> .
 
-<http://cor.esipfed.org/ont/~rduerr/ADO> rdf:type owl:Ontology ;
-                                          <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact> "Ruth Duerr (ruth duerr3 gmail com)"@en ;
-                                          <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole> "Ontology Producer" ;
-                                          <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation> "Duerr, R., 2019, \"Academic Resource Ontology\", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/~rduerr/ADO" ;
-                                          <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired> "yes" ;
-                                          <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType> "text/turtle" ;
-                                          <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager> "None" ;
-                                          <http://omv.ontoware.org/2005/05/ontology#hasCreator> "Ruth Duerr" ;
-                                          dc:creator <https://orcid.org/0000-0003-4808-4736> ;
-                                          dc:description "This ontology defines academic disciplines according to the Wikipedia article https://en.wikipedia.org/wiki/Outline_of_academic_disciplines.  Disciplines are given as a multi-level hierarchy where some disciplines may show up under more than one upper level term (e.g., biogeology shows up as a child of both biology and geology).  Given that the NSF EarthCube program that led to this ontology is concentrated on the Geosciences, areas relevant to EarthCube were fully fleshed out beyond the first level in the hierarchy.  Contributions from others for other disciplines based on the wikipedia article are welcomed.  See https://github.com/earthcubearchitecture-ecresourcereg/Utility-Ontologies to contribute." ;
-                                          dc:title "Academic disciplines Ontology" ;
-                                          dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
-                                          oboinOwl:creation_date "2019-09-10T23:32:13Z" ;
-                                          rdfs:seeAlso "Wikipedia contributors, \"Outline of academic disciplines,\" Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Outline_of_academic_disciplines&oldid=914175720 (accessed September 16, 2019)." .
+<http://cor.esipfed.org/ont/earthcube/ADO> rdf:type owl:Ontology ;
+                                            <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact> "Ruth Duerr (ruth duerr3 gmail com)"@en ;
+                                            <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole> "Ontology Producer" ;
+                                            <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation> "Duerr, R., 2019, \"Academic Resource Ontology\", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/earthcube/ADO" ;
+                                            <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired> "yes" ;
+                                            <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/hasResourceType> "text/turtle" ;
+                                            <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager> "None" ;
+                                            <http://omv.ontoware.org/2005/05/ontology#hasCreator> "Ruth Duerr" ;
+                                            dc:creator <https://orcid.org/0000-0003-4808-4736> ;
+                                            dc:description "This ontology defines academic disciplines according to the Wikipedia article https://en.wikipedia.org/wiki/Outline_of_academic_disciplines.  Disciplines are given as a multi-level hierarchy where some disciplines may show up under more than one upper level term (e.g., biogeology shows up as a child of both biology and geology).  Given that the NSF EarthCube program that led to this ontology is concentrated on the Geosciences, areas relevant to EarthCube were fully fleshed out beyond the first level in the hierarchy.  Contributions from others for other disciplines based on the wikipedia article are welcomed.  See https://github.com/earthcubearchitecture-ecresourcereg/Utility-Ontologies to contribute." ;
+                                            dc:title "Academic disciplines Ontology" ;
+                                            dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+                                            oboinOwl:creation_date "2019-09-10T23:32:13Z" ;
+                                            rdfs:seeAlso "Wikipedia contributors, \"Outline of academic disciplines,\" Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Outline_of_academic_disciplines&oldid=914175720 (accessed September 16, 2019)." ;
+                                            owl:versionInfo "1.0.0"@en .
 
 #################################################################
 #    Annotation properties
@@ -102,879 +103,879 @@ oboinOwl:hasRelatedSynonym rdf:type owl:AnnotationProperty .
 #    Classes
 #################################################################
 
-###  http://cor.esipfed.org/ont/earthcube/RTE_000011
-<http://cor.esipfed.org/ont/earthcube/RTE_000011> rdf:type owl:Class ;
-                                                  rdfs:subClassOf :ADO__0000030 ;
-                                                  oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-                                                  oboinOwl:creation_date "2019-10-18T23:32:20Z"^^xsd:dateTime ;
-                                                  rdfs:label "geochronology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001
-:ADO__0000001 rdf:type owl:Class ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:09:52Z"^^xsd:dateTime ;
-              rdfs:label "academic discipline"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002
-:ADO__0000002 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000001 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:10:43Z"^^xsd:dateTime ;
-              rdfs:label "humanities"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000003
-:ADO__0000003 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000002 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:10:53Z"^^xsd:dateTime ;
-              rdfs:label "arts"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000004
-:ADO__0000004 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000003 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:11:27Z"^^xsd:dateTime ;
-              rdfs:label "performing arts"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000005
-:ADO__0000005 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000003 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:12:12Z"^^xsd:dateTime ;
-              rdfs:label "visual arts"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000006
-:ADO__0000006 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000002 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:12:26Z"^^xsd:dateTime ;
-              rdfs:label "history"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000007
-:ADO__0000007 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000002 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:14:37Z"^^xsd:dateTime ;
-              rdfs:label "languages and literature"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000008
-:ADO__0000008 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000002 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:14:46Z"^^xsd:dateTime ;
-              rdfs:label "law"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000009
-:ADO__0000009 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000002 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:14:56Z"^^xsd:dateTime ;
-              rdfs:label "philosophy"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000010
-:ADO__0000010 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000002 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:15:08Z"^^xsd:dateTime ;
-              rdfs:label "theology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011
-:ADO__0000011 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000001 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:15:25Z"^^xsd:dateTime ;
-              rdfs:label "social sciences"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000012
-:ADO__0000012 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000011 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:15:38Z"^^xsd:dateTime ;
-              rdfs:label "anthropology"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001> rdf:type owl:Class ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:09:52Z"^^xsd:dateTime ;
+                                                        rdfs:label "academic discipline"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:10:43Z"^^xsd:dateTime ;
+                                                        rdfs:label "humanities"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000003
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000003> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:10:53Z"^^xsd:dateTime ;
+                                                        rdfs:label "arts"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000004
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000004> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000003> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:11:27Z"^^xsd:dateTime ;
+                                                        rdfs:label "performing arts"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000005
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000005> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000003> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:12:12Z"^^xsd:dateTime ;
+                                                        rdfs:label "visual arts"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000006
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000006> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:12:26Z"^^xsd:dateTime ;
+                                                        rdfs:label "history"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000007
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000007> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:14:37Z"^^xsd:dateTime ;
+                                                        rdfs:label "languages and literature"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000008
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000008> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:14:46Z"^^xsd:dateTime ;
+                                                        rdfs:label "law"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000009
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000009> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:14:56Z"^^xsd:dateTime ;
+                                                        rdfs:label "philosophy"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000010
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000010> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:15:08Z"^^xsd:dateTime ;
+                                                        rdfs:label "theology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:15:25Z"^^xsd:dateTime ;
+                                                        rdfs:label "social sciences"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000012
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000012> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:15:38Z"^^xsd:dateTime ;
+                                                        rdfs:label "anthropology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000013
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000013> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:15:48Z"^^xsd:dateTime ;
+                                                        rdfs:label "archaeology"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000013
-:ADO__0000013 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000011 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:15:48Z"^^xsd:dateTime ;
-              rdfs:label "archaeology"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000014
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000014> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:15:57Z"^^xsd:dateTime ;
+                                                        rdfs:label "economics"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000014
-:ADO__0000014 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000011 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:15:57Z"^^xsd:dateTime ;
-              rdfs:label "economics"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000015
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000015> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:16:09Z"^^xsd:dateTime ;
+                                                        rdfs:label "human geography"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000015
-:ADO__0000015 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000011 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:16:09Z"^^xsd:dateTime ;
-              rdfs:label "human geography"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000016
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000016> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:16:19Z"^^xsd:dateTime ;
+                                                        rdfs:label "political science"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000016
-:ADO__0000016 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000011 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:16:19Z"^^xsd:dateTime ;
-              rdfs:label "political science"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000017
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000017> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:16:32Z"^^xsd:dateTime ;
+                                                        rdfs:label "psychology"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000017
-:ADO__0000017 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000011 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:16:32Z"^^xsd:dateTime ;
-              rdfs:label "psychology"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000018
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000018> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:16:39Z"^^xsd:dateTime ;
+                                                        rdfs:label "sociology"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000018
-:ADO__0000018 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000011 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:16:39Z"^^xsd:dateTime ;
-              rdfs:label "sociology"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000019
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000019> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:16:57Z"^^xsd:dateTime ;
+                                                        rdfs:label "natural sciences"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019
-:ADO__0000019 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000001 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:16:57Z"^^xsd:dateTime ;
-              rdfs:label "natural sciences"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000021
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000021> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000019> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:47:03Z"^^xsd:dateTime ;
+                                                        rdfs:label "earth science"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021
-:ADO__0000021 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000019 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:47:03Z"^^xsd:dateTime ;
-              rdfs:label "earth science"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000022
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000022> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000019> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:47:16Z"^^xsd:dateTime ;
+                                                        rdfs:label "space science"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000022
-:ADO__0000022 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000019 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:47:16Z"^^xsd:dateTime ;
-              rdfs:label "space science"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000023
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000023> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:47:27Z"^^xsd:dateTime ;
+                                                        rdfs:label "formal sciences"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000023
-:ADO__0000023 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000001 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:47:27Z"^^xsd:dateTime ;
-              rdfs:label "formal sciences"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000024
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000024> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:47:36Z"^^xsd:dateTime ;
+                                                        rdfs:label "applied sciences"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000024
-:ADO__0000024 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000001 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:47:36Z"^^xsd:dateTime ;
-              rdfs:label "applied sciences"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000026
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000026> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000024> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:52:26Z"^^xsd:dateTime ;
+                                                        rdfs:label "business"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000026
-:ADO__0000026 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000024 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:52:26Z"^^xsd:dateTime ;
-              rdfs:label "business"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000027
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000027> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000024> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-27T23:52:38Z"^^xsd:dateTime ;
+                                                        rdfs:label "engineering and technology"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000027
-:ADO__0000027 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000024 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-27T23:52:38Z"^^xsd:dateTime ;
-              rdfs:label "engineering and technology"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000028
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000028> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000021> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-28T00:12:11Z"^^xsd:dateTime ;
+                                                        rdfs:label "environmental science"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000028
-:ADO__0000028 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000021 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-28T00:12:11Z"^^xsd:dateTime ;
-              rdfs:label "environmental science"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000029
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000029> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000028> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T21:23:09Z"^^xsd:dateTime ;
+                                                        rdfs:label "environmental chemistry"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000029
-:ADO__0000029 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000028 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T21:23:09Z"^^xsd:dateTime ;
-              rdfs:label "environmental chemistry"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000030
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000030> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ,
+                                                                        <http://edamontology.org/topic_3314> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T21:24:44Z"^^xsd:dateTime ;
+                                                        rdfs:label "geochemistry"@en .
 
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000030
-:ADO__0000030 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ,
-                              <http://edamontology.org/topic_3314> ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T21:24:44Z"^^xsd:dateTime ;
-              rdfs:label "geochemistry"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000031
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000031> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000021> ,
+                                                                        <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T21:26:03Z"^^xsd:dateTime ;
+                                                        rdfs:label "geodesy"@en .
+
 
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000021> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T21:26:24Z"^^xsd:dateTime ;
+                                                        rdfs:label "physical geography"@en .
+
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000031
-:ADO__0000031 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000021 ,
-                              :ADO__0000063 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T21:26:03Z"^^xsd:dateTime ;
-              rdfs:label "geodesy"@en .
-
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000033
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000033> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T21:27:17Z"^^xsd:dateTime ;
+                                                        rdfs:label "atmospheric science"@en .
+
 
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032
-:ADO__0000032 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000021 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T21:26:24Z"^^xsd:dateTime ;
-              rdfs:label "physical geography"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033
-:ADO__0000033 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000032 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T21:27:17Z"^^xsd:dateTime ;
-              rdfs:label "atmospheric science"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000034
-:ADO__0000034 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000033 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T21:33:03Z"^^xsd:dateTime ;
-              rdfs:label "meteorology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000035
-:ADO__0000035 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000033 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T21:33:03Z"^^xsd:dateTime ;
-              rdfs:label "climatology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000036
-:ADO__0000036 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000033 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T21:33:03Z"^^xsd:dateTime ;
-              rdfs:label "atmospheric physics"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000037
-:ADO__0000037 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000033 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T21:33:03Z"^^xsd:dateTime ;
-              rdfs:label "atmospheric chemistry"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000038
-:ADO__0000038 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000033 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T21:33:03Z"^^xsd:dateTime ;
-              rdfs:label "atmospheric dynamics"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000039
-:ADO__0000039 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000032 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T21:37:23Z"^^xsd:dateTime ;
-              rdfs:label "biogeography"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000040
-:ADO__0000040 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000039 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T21:37:48Z"^^xsd:dateTime ;
-              rdfs:label "phytogeography"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000041
-:ADO__0000041 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000039 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T21:38:18Z"^^xsd:dateTime ;
-              rdfs:label "zoogeography"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000043
-:ADO__0000043 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000035 ,
-                              :ADO__0000101 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T21:51:55Z"^^xsd:dateTime ;
-              rdfs:label "paleoclimatology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000044
-:ADO__0000044 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000032 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T21:54:46Z"^^xsd:dateTime ;
-              oboinOwl:hasExactSynonym "palaeogeopgraphy" ,
-                                       "paleogeomorphology" ;
-              rdfs:label "paleogeography"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000045
-:ADO__0000045 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000032 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T21:57:51Z"^^xsd:dateTime ;
-              rdfs:label "coastal geography"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046
-:ADO__0000046 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000032 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:07:54Z"^^xsd:dateTime ;
-              rdfs:label "oceanography"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000047
-:ADO__0000047 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000046 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:08:16Z"^^xsd:dateTime ;
-              oboinOwl:hasExactSynonym "marine biology"@en ;
-              rdfs:label "biological oceanography"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000048
-:ADO__0000048 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000046 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:08:29Z"^^xsd:dateTime ;
-              rdfs:label "chemical oceanography"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000049
-:ADO__0000049 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000046 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:08:43Z"^^xsd:dateTime ;
-              rdfs:label "geological oceanography"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000050
-:ADO__0000050 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000046 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:08:56Z"^^xsd:dateTime ;
-              rdfs:label "physical oceanography"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000051
-:ADO__0000051 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000046 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:10:48Z"^^xsd:dateTime ;
-              rdfs:label "paleoceanography"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000052
-:ADO__0000052 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000032 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:12:06Z"^^xsd:dateTime ;
-              rdfs:label "soil science"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000053
-:ADO__0000053 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000052 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:12:21Z"^^xsd:dateTime ;
-              rdfs:label "edaphology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000054
-:ADO__0000054 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000052 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:12:30Z"^^xsd:dateTime ;
-              rdfs:label "pedology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000055
-:ADO__0000055 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000032 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:15:11Z"^^xsd:dateTime ;
-              rdfs:label "geobiology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056
-:ADO__0000056 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000032 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:17:04Z"^^xsd:dateTime ;
-              rdfs:label "geology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000057
-:ADO__0000057 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "biogeology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000058
-:ADO__0000058 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "economic geology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000059
-:ADO__0000059 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "engineering geology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000060
-:ADO__0000060 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "environmental geology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000061
-:ADO__0000061 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "geologic modeling"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000062
-:ADO__0000062 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "geomorphology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063
-:ADO__0000063 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000021 ,
-                              <http://edamontology.org/topic_3318> ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "geophysics"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000064
-:ADO__0000064 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "historical geology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000065
-:ADO__0000065 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "marine geology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000066
-:ADO__0000066 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "mineralogy"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000067
-:ADO__0000067 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "mining geology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000069
-:ADO__0000069 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "petroleum geology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000070
-:ADO__0000070 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "petrology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000071
-:ADO__0000071 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "sedimentology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000072
-:ADO__0000072 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "stratigraphy"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000073
-:ADO__0000073 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "structural geology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000074
-:ADO__0000074 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
-              rdfs:label "volcanology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000075
-:ADO__0000075 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:28:06Z"^^xsd:dateTime ;
-              rdfs:label "speleology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000076
-:ADO__0000076 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:28:15Z"^^xsd:dateTime ;
-              rdfs:label "tectonics"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000077
-:ADO__0000077 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000056 ,
-                              <http://edamontology.org/topic_2269> ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:29:35Z"^^xsd:dateTime ;
-              rdfs:label "geostatistics"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000078
-:ADO__0000078 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000032 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:30:49Z"^^xsd:dateTime ;
-              rdfs:label "glaciology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079
-:ADO__0000079 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000032 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:33:44Z"^^xsd:dateTime ;
-              rdfs:label "hydrology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000080
-:ADO__0000080 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000079 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:35:13Z"^^xsd:dateTime ;
-              rdfs:label "chemical hydrology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000081
-:ADO__0000081 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000079 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:35:13Z"^^xsd:dateTime ;
-              rdfs:label "ecohydrology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000082
-:ADO__0000082 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000079 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:35:13Z"^^xsd:dateTime ;
-              oboinOwl:hasRelatedSynonym "geohydrology"@en ,
-                                         "groundwater hydrology"@en ;
-              rdfs:label "hydrogeology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000083
-:ADO__0000083 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000079 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:35:13Z"^^xsd:dateTime ;
-              rdfs:label "hydroinformatics"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000084
-:ADO__0000084 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000079 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:35:13Z"^^xsd:dateTime ;
-              rdfs:label "hydrometeorology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000085
-:ADO__0000085 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000079 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:35:13Z"^^xsd:dateTime ;
-              rdfs:label "isotope hydrology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000086
-:ADO__0000086 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000079 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:35:13Z"^^xsd:dateTime ;
-              rdfs:label "surface hydrology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000087
-:ADO__0000087 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000032 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:36:44Z"^^xsd:dateTime ;
-              rdfs:label "limnology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000088
-:ADO__0000088 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000032 ,
-                              <http://edamontology.org/topic_0610> ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:40:11Z"^^xsd:dateTime ;
-              rdfs:label "landscape ecology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000089
-:ADO__0000089 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000032 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:41:10Z"^^xsd:dateTime ;
-              rdfs:label "quaternary science"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000090
-:ADO__0000090 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000063 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
-              rdfs:label "biogeophysics"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000091
-:ADO__0000091 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000063 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
-              rdfs:label "exploration geophysics"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000092
-:ADO__0000092 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000063 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
-              rdfs:label "geophysical fluid dynamics"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000093
-:ADO__0000093 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000063 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
-              rdfs:label "geodynamics"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000094
-:ADO__0000094 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000063 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
-              rdfs:label "geomagnetism"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000095
-:ADO__0000095 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000063 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
-              rdfs:label "mathematical geophysics"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000096
-:ADO__0000096 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000063 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
-              rdfs:label "mineral physics"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000097
-:ADO__0000097 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000063 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
-              rdfs:label "near-surface geophysics"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000098
-:ADO__0000098 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000063 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
-              rdfs:label "paleomagnetism"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000099
-:ADO__0000099 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000063 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
-              rdfs:label "seisomology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000100
-:ADO__0000100 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000063 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
-              rdfs:label "tectonophysics"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101
-:ADO__0000101 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000021 ,
-                              :ADO__0000056 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T22:59:24Z"^^xsd:dateTime ;
-              rdfs:label "paleontology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000102
-:ADO__0000102 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000101 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T23:01:44Z"^^xsd:dateTime ;
-              rdfs:label "vertebrate paleontology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000103
-:ADO__0000103 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000101 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T23:01:55Z"^^xsd:dateTime ;
-              rdfs:label "invertebrate paleontology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000104
-:ADO__0000104 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000101 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T23:03:31Z"^^xsd:dateTime ;
-              rdfs:label "paleobotany"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000105
-:ADO__0000105 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000101 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T23:03:31Z"^^xsd:dateTime ;
-              rdfs:label "palynology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000106
-:ADO__0000106 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000101 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T23:03:31Z"^^xsd:dateTime ;
-              rdfs:label "micropaleontology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000107
-:ADO__0000107 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000101 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T23:03:31Z"^^xsd:dateTime ;
-              rdfs:label "paleoecology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000108
-:ADO__0000108 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000101 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T23:03:31Z"^^xsd:dateTime ;
-              rdfs:label "biostratigraphy"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000109
-:ADO__0000109 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000101 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-08-29T23:05:08Z"^^xsd:dateTime ;
-              rdfs:label "paleobiology"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000188
-:ADO__0000188 rdf:type owl:Class ;
-              rdfs:subClassOf :ADO__0000001 ;
-              oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-              oboinOwl:creation_date "2019-09-06T22:42:53Z"^^xsd:dateTime ;
-              rdfs:label "discipline agnostic"@en .
-
-
-###  http://cor.esipfed.org/ont/~rduerr/ADO/ECCRO_0000309
-:ECCRO_0000309 rdf:type owl:Class ;
-               rdfs:subClassOf :ADO__0000063 ;
-               oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
-               oboinOwl:creation_date "2019-09-30T21:51:54Z"^^xsd:dateTime ;
-               rdfs:label "magnetotellurics"@en .
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000034
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000034> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000033> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T21:33:03Z"^^xsd:dateTime ;
+                                                        rdfs:label "meteorology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000035
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000035> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000033> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T21:33:03Z"^^xsd:dateTime ;
+                                                        rdfs:label "climatology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000036
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000036> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000033> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T21:33:03Z"^^xsd:dateTime ;
+                                                        rdfs:label "atmospheric physics"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000037
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000037> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000033> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T21:33:03Z"^^xsd:dateTime ;
+                                                        rdfs:label "atmospheric chemistry"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000038
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000038> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000033> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T21:33:03Z"^^xsd:dateTime ;
+                                                        rdfs:label "atmospheric dynamics"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000039
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000039> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T21:37:23Z"^^xsd:dateTime ;
+                                                        rdfs:label "biogeography"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000040
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000040> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000039> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T21:37:48Z"^^xsd:dateTime ;
+                                                        rdfs:label "phytogeography"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000041
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000041> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000039> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T21:38:18Z"^^xsd:dateTime ;
+                                                        rdfs:label "zoogeography"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000043
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000043> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000035> ,
+                                                                        <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T21:51:55Z"^^xsd:dateTime ;
+                                                        rdfs:label "paleoclimatology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000044
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000044> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T21:54:46Z"^^xsd:dateTime ;
+                                                        oboinOwl:hasExactSynonym "palaeogeopgraphy" ,
+                                                                                 "paleogeomorphology" ;
+                                                        rdfs:label "paleogeography"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000045
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000045> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T21:57:51Z"^^xsd:dateTime ;
+                                                        rdfs:label "coastal geography"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000046
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000046> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:07:54Z"^^xsd:dateTime ;
+                                                        rdfs:label "oceanography"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000047
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000047> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000046> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:08:16Z"^^xsd:dateTime ;
+                                                        oboinOwl:hasExactSynonym "marine biology"@en ;
+                                                        rdfs:label "biological oceanography"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000048
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000048> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000046> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:08:29Z"^^xsd:dateTime ;
+                                                        rdfs:label "chemical oceanography"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000049
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000049> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000046> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:08:43Z"^^xsd:dateTime ;
+                                                        rdfs:label "geological oceanography"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000050
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000050> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000046> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:08:56Z"^^xsd:dateTime ;
+                                                        rdfs:label "physical oceanography"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000051
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000051> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000046> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:10:48Z"^^xsd:dateTime ;
+                                                        rdfs:label "paleoceanography"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000052
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000052> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:12:06Z"^^xsd:dateTime ;
+                                                        rdfs:label "soil science"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000053
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000053> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000052> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:12:21Z"^^xsd:dateTime ;
+                                                        rdfs:label "edaphology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000054
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000054> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000052> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:12:30Z"^^xsd:dateTime ;
+                                                        rdfs:label "pedology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000055
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000055> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:15:11Z"^^xsd:dateTime ;
+                                                        rdfs:label "geobiology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:17:04Z"^^xsd:dateTime ;
+                                                        rdfs:label "geology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000057
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000057> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "biogeology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000058
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000058> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "economic geology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000059
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000059> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "engineering geology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000060
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000060> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "environmental geology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000061
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000061> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "geologic modeling"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000062
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000062> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "geomorphology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000021> ,
+                                                                        <http://edamontology.org/topic_3318> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "geophysics"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000064
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000064> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "historical geology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000065
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000065> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "marine geology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000066
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000066> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "mineralogy"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000067
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000067> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "mining geology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000069
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000069> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "petroleum geology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000070
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000070> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "petrology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000071
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000071> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "sedimentology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000072
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000072> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "stratigraphy"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000073
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000073> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "structural geology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000074
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000074> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:22:05Z"^^xsd:dateTime ;
+                                                        rdfs:label "volcanology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000075
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000075> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:28:06Z"^^xsd:dateTime ;
+                                                        rdfs:label "speleology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000076
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000076> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:28:15Z"^^xsd:dateTime ;
+                                                        rdfs:label "tectonics"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000077
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000077> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ,
+                                                                        <http://edamontology.org/topic_2269> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:29:35Z"^^xsd:dateTime ;
+                                                        rdfs:label "geostatistics"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000078
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000078> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:30:49Z"^^xsd:dateTime ;
+                                                        rdfs:label "glaciology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:33:44Z"^^xsd:dateTime ;
+                                                        rdfs:label "hydrology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000080
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000080> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:35:13Z"^^xsd:dateTime ;
+                                                        rdfs:label "chemical hydrology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000081
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000081> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:35:13Z"^^xsd:dateTime ;
+                                                        rdfs:label "ecohydrology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000082
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000082> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:35:13Z"^^xsd:dateTime ;
+                                                        oboinOwl:hasRelatedSynonym "geohydrology"@en ,
+                                                                                   "groundwater hydrology"@en ;
+                                                        rdfs:label "hydrogeology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000083
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000083> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:35:13Z"^^xsd:dateTime ;
+                                                        rdfs:label "hydroinformatics"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000084
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000084> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:35:13Z"^^xsd:dateTime ;
+                                                        rdfs:label "hydrometeorology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000085
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000085> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:35:13Z"^^xsd:dateTime ;
+                                                        rdfs:label "isotope hydrology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000086
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000086> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:35:13Z"^^xsd:dateTime ;
+                                                        rdfs:label "surface hydrology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000087
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000087> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:36:44Z"^^xsd:dateTime ;
+                                                        rdfs:label "limnology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000088
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000088> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032> ,
+                                                                        <http://edamontology.org/topic_0610> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:40:11Z"^^xsd:dateTime ;
+                                                        rdfs:label "landscape ecology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000089
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000089> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:41:10Z"^^xsd:dateTime ;
+                                                        rdfs:label "quaternary science"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000090
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000090> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
+                                                        rdfs:label "biogeophysics"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000091
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000091> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
+                                                        rdfs:label "exploration geophysics"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000092
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000092> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
+                                                        rdfs:label "geophysical fluid dynamics"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000093
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000093> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
+                                                        rdfs:label "geodynamics"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000094
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000094> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
+                                                        rdfs:label "geomagnetism"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000095
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000095> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
+                                                        rdfs:label "mathematical geophysics"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000096
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000096> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
+                                                        rdfs:label "mineral physics"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000097
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000097> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
+                                                        rdfs:label "near-surface geophysics"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000098
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000098> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
+                                                        rdfs:label "paleomagnetism"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000099
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000099> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
+                                                        rdfs:label "seisomology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000100
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000100> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:49:19Z"^^xsd:dateTime ;
+                                                        rdfs:label "tectonophysics"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000021> ,
+                                                                        <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T22:59:24Z"^^xsd:dateTime ;
+                                                        rdfs:label "paleontology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000102
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000102> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T23:01:44Z"^^xsd:dateTime ;
+                                                        rdfs:label "vertebrate paleontology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000103
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000103> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T23:01:55Z"^^xsd:dateTime ;
+                                                        rdfs:label "invertebrate paleontology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000104
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000104> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T23:03:31Z"^^xsd:dateTime ;
+                                                        rdfs:label "paleobotany"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000105
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000105> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T23:03:31Z"^^xsd:dateTime ;
+                                                        rdfs:label "palynology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000106
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000106> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T23:03:31Z"^^xsd:dateTime ;
+                                                        rdfs:label "micropaleontology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000107
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000107> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T23:03:31Z"^^xsd:dateTime ;
+                                                        rdfs:label "paleoecology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000108
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000108> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T23:03:31Z"^^xsd:dateTime ;
+                                                        rdfs:label "biostratigraphy"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000109
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000109> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-08-29T23:05:08Z"^^xsd:dateTime ;
+                                                        rdfs:label "paleobiology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000188
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000188> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-09-06T22:42:53Z"^^xsd:dateTime ;
+                                                        rdfs:label "discipline agnostic"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000189
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000189> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000030> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-10-18T23:32:20Z"^^xsd:dateTime ;
+                                                        rdfs:label "geochronology"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000190
+<http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000190> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063> ;
+                                                        oboinOwl:created_by <http://orcid.org/0000-0003-4808-4736> ;
+                                                        oboinOwl:creation_date "2019-09-30T21:51:54Z"^^xsd:dateTime ;
+                                                        rdfs:label "magnetotellurics"@en .
 
 
 ###  http://edamontology.org/topic_0610
@@ -986,28 +987,28 @@ oboinOwl:hasRelatedSynonym rdf:type owl:AnnotationProperty .
 
 ###  http://edamontology.org/topic_2269
 <http://edamontology.org/topic_2269> rdf:type owl:Class ;
-                                     rdfs:subClassOf :ADO__0000023 ;
+                                     rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000023> ;
                                      rdfs:isDefinedBy <http://edamontology.org/topic_2269> ;
                                      rdfs:label "statistics and probability"@en .
 
 
 ###  http://edamontology.org/topic_3070
 <http://edamontology.org/topic_3070> rdf:type owl:Class ;
-                                     rdfs:subClassOf :ADO__0000019 ;
+                                     rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000019> ;
                                      rdfs:isDefinedBy <http://edamontology.org/topic_3070> ;
                                      rdfs:label "biology" .
 
 
 ###  http://edamontology.org/topic_3314
 <http://edamontology.org/topic_3314> rdf:type owl:Class ;
-                                     rdfs:subClassOf :ADO__0000019 ;
+                                     rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000019> ;
                                      rdfs:isDefinedBy <http://edamontology.org/topic_3314> ;
-                                     rdfs:label :chemistry .
+                                     rdfs:label <http://cor.esipfed.org/ont/earthcube/ADO/chemistry> .
 
 
 ###  http://edamontology.org/topic_3318
 <http://edamontology.org/topic_3318> rdf:type owl:Class ;
-                                     rdfs:subClassOf :ADO__0000019 ;
+                                     rdfs:subClassOf <http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000019> ;
                                      rdfs:isDefinedBy <http://edamontology.org/topic_3318> ;
                                      rdfs:label "physics"@en .
 

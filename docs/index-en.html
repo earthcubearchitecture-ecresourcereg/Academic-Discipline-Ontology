@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"http://cor.esipfed.org/ont/earthcube/ADO","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://cor.esipfed.org/ont/earthcube/ADO","name":"Academic disciplines Ontology", "headline":"This ontology defines academic disciplines according to the Wikipedia article https://en.wikipedia.org/wiki/Outline_of_academic_disciplines.  Disciplines are given as a multi-level hierarchy where some disciplines may show up under more than one upper level term (e.g., biogeology shows up as a child of both biology and geology).  Given that the NSF EarthCube program that led to this ontology is concentrated on the Geosciences, areas relevant to EarthCube were fully fleshed out beyond the first level in the hierarchy.  Contributions from others for other disciplines based on the wikipedia article are welcomed.  See https://github.com/earthcubearchitecture-ecresourcereg/Utility-Ontologies to contribute.", "datePublished":"2019-10-18", "version":"1.0.0", "license":"http://creativecommons.org/licenses/by-sa/4.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0003-4808-4736","url":"https://orcid.org/0000-0003-4808-4736"}]}</script>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"http://cor.esipfed.org/ont/earthcube/ADO","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://cor.esipfed.org/ont/earthcube/ADO","name":"Academic disciplines Ontology", "headline":"This ontology defines academic disciplines according to the Wikipedia article https://en.wikipedia.org/wiki/Outline_of_academic_disciplines.  Disciplines are given as a multi-level hierarchy where some disciplines may show up under more than one upper level term (e.g., biogeology shows up as a child of both biology and geology).  Given that the NSF EarthCube program that led to this ontology is concentrated on the Geosciences, areas relevant to EarthCube were fully fleshed out beyond the first level in the hierarchy.  Contributions from others for other disciplines based on the wikipedia article are welcomed.  See https://github.com/earthcubearchitecture-ecresourcereg/Utility-Ontologies to contribute.", "datePublished":"Fri Oct 18 21:57:17 MDT 2019", "version":"1.0.0", "license":"http://creativecommons.org/licenses/by-sa/4.0/", "author":[{"@type":"Person","name":"Ruth Duerr","url":"https://orcid.org/0000-0003-4808-4736"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -45,11 +45,7 @@ function loadTOC(){
  $.fn.ignore = function(sel){
         return this.clone().find(sel||">*").remove().end();
  };    $(function(){
-      $("#abstract").load("sections/abstract-en.html"); 
-      $("#introduction").load("sections/introduction-en.html"); 
       $("#overview").load("sections/overview-en.html"); 
-      $("#description").load("sections/description-en.html"); 
-      $("#references").load("sections/references-en.html"); 
       $("#crossref").load("sections/crossref-en.html", null, loadHash); 
     });
     </script> 
@@ -60,7 +56,6 @@ function loadTOC(){
 <div class="head">
 <div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
 <h1>Academic disciplines Ontology</h1>
-<h2>Release  2019-10-18</h2>
 
 
 <dl>
@@ -69,28 +64,22 @@ function loadTOC(){
 <dt>Revision:</dt>
 <dd>1.0.0</dd>
 <dt>Authors:</dt>
-<dd><a href="https://orcid.org/0000-0003-4808-4736">https://orcid.org/0000-0003-4808-4736</a></dd>
+<dd><a href="https://orcid.org/0000-0003-4808-4736">Ruth Duerr</a>, Ronin Institute for Independent Scholarship</dd>
 
-<dt>Publisher:</dt>
-<dd><a href="https://grid.ac/institutes/grid.426684.a">Federation of Earth Science Information Partners</a>, OfficeEarthCube </dd>
 <dt>Download serialization:</dt><dd><span><a href="ontology.json" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License: </dt><dd><a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="https://img.shields.io/badge/License-http://creativecommons.org/licenses/by_sa/4.0/-blue.svg" alt="http://creativecommons.org/licenses/by-sa/4.0/" /></a>
 </dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
 <dt>Cite as:</dt>
-<dd>Duerr, R., 2019, "Academic Resource Ontology", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/~rduerr/ADO</dd>
+<dd>Duerr, R., 2019, "Academic Resource Ontology", Revision: 1.0.0., ESIP Community Ontology Repository, http://cor.esipfed.org/ont/earthcube/ADO </dd>
 </dl>
 
 <a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
 </div>
 <div class="status">
 <div>
-<span>Ontology Specification Draft</span>
+<span>Stable</span>
 </div>
-</div>     <div id="abstract"></div>
-<div id="toc"></div>     <div id="introduction"></div>
-     <div id="overview"></div>
-     <div id="description"></div>
+</div><div id="toc"></div>     <div id="overview"></div>
      <div id="crossref"></div>
-     <div id="references"></div>
 <html>
 <div id="acknowledgements">
 <h2 id="ack" class="list">Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>

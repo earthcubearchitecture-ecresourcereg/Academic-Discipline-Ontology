@@ -2,11 +2,12 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "undefined" ],
-    "baseIris" : [ "http://cor.esipfed.org/ont/~rduerr/ADO", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://edamontology.org", "http://www.w3.org/2000/01/rdf-schema", "http://cor.esipfed.org/ont/earthcube", "http://www.w3.org/2001/XMLSchema" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://edamontology.org", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://cor.esipfed.org/ont/earthcube/ADO" ],
     "title" : {
       "undefined" : "Academic disciplines Ontology"
     },
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "version" : "1.0.0",
     "author" : [ "https://orcid.org/0000-0003-4808-4736" ],
     "description" : {
       "undefined" : "This ontology defines academic disciplines according to the Wikipedia article https://en.wikipedia.org/wiki/Outline_of_academic_disciplines.  Disciplines are given as a multi-level hierarchy where some disciplines may show up under more than one upper level term (e.g., biogeology shows up as a child of both biology and geology).  Given that the NSF EarthCube program that led to this ontology is concentrated on the Geosciences, areas relevant to EarthCube were fully fleshed out beyond the first level in the hierarchy.  Contributions from others for other disciplines based on the wikipedia article are welcomed.  See https://github.com/earthcubearchitecture-ecresourcereg/Utility-Ontologies to contribute."
@@ -18,34 +19,16 @@
         "value" : "Ruth Duerr",
         "type" : "label"
       } ],
-      "license" : [ {
-        "identifier" : "license",
-        "language" : "undefined",
-        "value" : "http://creativecommons.org/licenses/by-sa/4.0/",
-        "type" : "iri"
-      } ],
       "creator" : [ {
         "identifier" : "creator",
         "language" : "undefined",
         "value" : "https://orcid.org/0000-0003-4808-4736",
         "type" : "iri"
       } ],
-      "origVocManager" : [ {
-        "identifier" : "origVocManager",
-        "language" : "undefined",
-        "value" : "None",
-        "type" : "label"
-      } ],
-      "contact" : [ {
-        "identifier" : "contact",
-        "language" : "en",
-        "value" : "Ruth Duerr (ruth duerr3 gmail com)",
-        "type" : "label"
-      } ],
       "creditCitation" : [ {
         "identifier" : "creditCitation",
         "language" : "undefined",
-        "value" : "Duerr, R., 2019, \"Academic Resource Ontology\", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/~rduerr/ADO",
+        "value" : "Duerr, R., 2019, \"Academic Resource Ontology\", ESIP Community Ontology Repository, http://cor.esipfed.org/ont/earthcube/ADO",
         "type" : "label"
       } ],
       "hasResourceType" : [ {
@@ -54,16 +37,16 @@
         "value" : "text/turtle",
         "type" : "label"
       } ],
-      "contactRole" : [ {
-        "identifier" : "contactRole",
-        "language" : "undefined",
-        "value" : "Ontology Producer",
-        "type" : "label"
-      } ],
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
         "value" : "2019-09-10T23:32:13Z",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "1.0.0",
         "type" : "label"
       } ],
       "title" : [ {
@@ -83,75 +66,99 @@
         "language" : "undefined",
         "value" : "yes",
         "type" : "label"
+      } ],
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://creativecommons.org/licenses/by-sa/4.0/",
+        "type" : "iri"
+      } ],
+      "origVocManager" : [ {
+        "identifier" : "origVocManager",
+        "language" : "undefined",
+        "value" : "None",
+        "type" : "label"
+      } ],
+      "contact" : [ {
+        "identifier" : "contact",
+        "language" : "en",
+        "value" : "Ruth Duerr (ruth duerr3 gmail com)",
+        "type" : "label"
+      } ],
+      "contactRole" : [ {
+        "identifier" : "contactRole",
+        "language" : "undefined",
+        "value" : "Ontology Producer",
+        "type" : "label"
       } ]
     }
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "9",
+    "id" : "0",
     "type" : "owl:Class"
   }, {
-    "id" : "14",
+    "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "11",
-    "type" : "owl:Class"
-  }, {
-    "id" : "15",
+    "id" : "8",
     "type" : "owl:Class"
   }, {
     "id" : "22",
     "type" : "owl:Class"
   }, {
-    "id" : "21",
+    "id" : "26",
     "type" : "owl:Class"
   }, {
-    "id" : "24",
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
     "type" : "owl:Class"
   }, {
     "id" : "10",
     "type" : "owl:Class"
   }, {
-    "id" : "38",
+    "id" : "11",
     "type" : "owl:Class"
   }, {
-    "id" : "44",
+    "id" : "66",
     "type" : "owl:Class"
   }, {
-    "id" : "52",
+    "id" : "19",
     "type" : "owl:Class"
   }, {
-    "id" : "55",
+    "id" : "31",
     "type" : "owl:Class"
   }, {
-    "id" : "56",
+    "id" : "34",
     "type" : "owl:Class"
   }, {
-    "id" : "23",
+    "id" : "37",
     "type" : "owl:Class"
   }, {
-    "id" : "58",
-    "type" : "owl:Class"
-  }, {
-    "id" : "27",
-    "type" : "owl:Class"
-  }, {
-    "id" : "59",
-    "type" : "owl:Class"
-  }, {
-    "id" : "45",
-    "type" : "owl:Class"
-  }, {
-    "id" : "29",
+    "id" : "71",
     "type" : "owl:Class"
   }, {
     "id" : "79",
     "type" : "owl:Class"
   }, {
-    "id" : "62",
-    "type" : "owl:Class"
-  }, {
-    "id" : "64",
+    "id" : "81",
     "type" : "owl:Class"
   }, {
     "id" : "82",
@@ -160,91 +167,22 @@
     "id" : "83",
     "type" : "owl:Class"
   }, {
-    "id" : "40",
-    "type" : "owl:Class"
-  }, {
-    "id" : "68",
-    "type" : "owl:Class"
-  }, {
-    "id" : "53",
-    "type" : "owl:Class"
-  }, {
-    "id" : "39",
-    "type" : "owl:Class"
-  }, {
     "id" : "84",
-    "type" : "owl:Class"
-  }, {
-    "id" : "60",
-    "type" : "owl:Class"
-  }, {
-    "id" : "86",
-    "type" : "owl:Class"
-  }, {
-    "id" : "87",
-    "type" : "owl:Class"
-  }, {
-    "id" : "102",
-    "type" : "owl:Class"
-  }, {
-    "id" : "67",
-    "type" : "owl:Class"
-  }, {
-    "id" : "69",
-    "type" : "owl:Class"
-  }, {
-    "id" : "103",
-    "type" : "owl:Class"
-  }, {
-    "id" : "80",
-    "type" : "owl:Class"
-  }, {
-    "id" : "81",
-    "type" : "owl:Class"
-  }, {
-    "id" : "36",
-    "type" : "owl:Class"
-  }, {
-    "id" : "85",
-    "type" : "owl:Class"
-  }, {
-    "id" : "88",
     "type" : "owl:Class"
   }, {
     "id" : "89",
     "type" : "owl:Class"
   }, {
-    "id" : "28",
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
     "type" : "owl:Class"
   }, {
     "id" : "92",
     "type" : "owl:Class"
   }, {
     "id" : "93",
-    "type" : "owl:Class"
-  }, {
-    "id" : "95",
-    "type" : "owl:Class"
-  }, {
-    "id" : "98",
-    "type" : "owl:Class"
-  }, {
-    "id" : "100",
-    "type" : "owl:Class"
-  }, {
-    "id" : "63",
-    "type" : "owl:Class"
-  }, {
-    "id" : "65",
-    "type" : "owl:Class"
-  }, {
-    "id" : "90",
-    "type" : "owl:Class"
-  }, {
-    "id" : "91",
-    "type" : "owl:Class"
-  }, {
-    "id" : "57",
     "type" : "owl:Class"
   }, {
     "id" : "94",
@@ -256,486 +194,249 @@
     "id" : "97",
     "type" : "owl:Class"
   }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
     "id" : "99",
     "type" : "owl:Class"
   }, {
     "id" : "101",
     "type" : "owl:Class"
   }, {
-    "id" : "66",
+    "id" : "102",
     "type" : "owl:Class"
   }, {
-    "id" : "121",
-    "type" : "owl:Class"
-  }, {
-    "id" : "122",
-    "type" : "owl:Class"
-  }, {
-    "id" : "70",
-    "type" : "owl:Class"
-  }, {
-    "id" : "71",
-    "type" : "owl:Class"
-  }, {
-    "id" : "116",
-    "type" : "owl:Class"
-  }, {
-    "id" : "117",
-    "type" : "owl:Class"
-  }, {
-    "id" : "118",
-    "type" : "owl:Class"
-  }, {
-    "id" : "119",
-    "type" : "owl:Class"
-  }, {
-    "id" : "120",
-    "type" : "owl:Class"
-  }, {
-    "id" : "105",
-    "type" : "owl:Class"
-  }, {
-    "id" : "107",
-    "type" : "owl:Class"
-  }, {
-    "id" : "108",
-    "type" : "owl:Class"
-  }, {
-    "id" : "109",
-    "type" : "owl:Class"
-  }, {
-    "id" : "110",
-    "type" : "owl:Class"
-  }, {
-    "id" : "111",
-    "type" : "owl:Class"
-  }, {
-    "id" : "112",
-    "type" : "owl:Class"
-  }, {
-    "id" : "113",
-    "type" : "owl:Class"
-  }, {
-    "id" : "114",
-    "type" : "owl:Class"
-  }, {
-    "id" : "115",
-    "type" : "owl:Class"
-  }, {
-    "id" : "49",
-    "type" : "owl:Class"
-  }, {
-    "id" : "166",
-    "type" : "owl:Class"
-  }, {
-    "id" : "168",
-    "type" : "owl:Class"
-  }, {
-    "id" : "172",
-    "type" : "owl:Class"
-  }, {
-    "id" : "173",
-    "type" : "owl:Class"
-  }, {
-    "id" : "174",
-    "type" : "owl:Class"
-  }, {
-    "id" : "176",
-    "type" : "owl:Class"
-  }, {
-    "id" : "26",
+    "id" : "103",
     "type" : "owl:Class"
   }, {
     "id" : "104",
     "type" : "owl:Class"
   }, {
-    "id" : "177",
+    "id" : "105",
     "type" : "owl:Class"
   }, {
-    "id" : "178",
+    "id" : "85",
     "type" : "owl:Class"
   }, {
-    "id" : "51",
+    "id" : "90",
     "type" : "owl:Class"
   }, {
-    "id" : "106",
-    "type" : "owl:Class"
-  }, {
-    "id" : "32",
-    "type" : "owl:Class"
-  }, {
-    "id" : "198",
-    "type" : "owl:Class"
-  }, {
-    "id" : "61",
-    "type" : "owl:Class"
-  }, {
-    "id" : "200",
-    "type" : "owl:Class"
-  }, {
-    "id" : "42",
-    "type" : "owl:Class"
-  }, {
-    "id" : "197",
-    "type" : "owl:Class"
-  }, {
-    "id" : "203",
-    "type" : "owl:Class"
-  }, {
-    "id" : "76",
-    "type" : "owl:Class"
-  }, {
-    "id" : "73",
-    "type" : "owl:Class"
-  }, {
-    "id" : "20",
-    "type" : "owl:Class"
-  }, {
-    "id" : "47",
+    "id" : "100",
     "type" : "owl:Class"
   }, {
     "id" : "43",
     "type" : "owl:Class"
   }, {
-    "id" : "1",
+    "id" : "45",
     "type" : "owl:Class"
   }, {
-    "id" : "4",
+    "id" : "3",
     "type" : "owl:Class"
   }, {
-    "id" : "25",
-    "type" : "owl:Class"
-  }, {
-    "id" : "6",
-    "type" : "owl:Class"
-  }, {
-    "id" : "8",
+    "id" : "7",
     "type" : "owl:Class"
   }, {
     "id" : "13",
     "type" : "owl:Class"
   }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
     "id" : "17",
     "type" : "owl:Class"
   }, {
-    "id" : "19",
+    "id" : "53",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
     "type" : "owl:Class"
   }, {
     "id" : "75",
     "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "160",
+    "type" : "owl:Class"
+  }, {
+    "id" : "161",
+    "type" : "owl:Class"
+  }, {
+    "id" : "162",
+    "type" : "owl:Class"
+  }, {
+    "id" : "163",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "168",
+    "type" : "owl:Class"
+  }, {
+    "id" : "169",
+    "type" : "owl:Class"
+  }, {
+    "id" : "170",
+    "type" : "owl:Class"
+  }, {
+    "id" : "165",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "owl:Class"
+  }, {
+    "id" : "167",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "164",
+    "type" : "owl:Class"
+  }, {
+    "id" : "188",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "201",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "211",
+    "type" : "owl:Class"
+  }, {
+    "id" : "196",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "206",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "207",
+    "type" : "owl:Class"
+  }, {
+    "id" : "208",
+    "type" : "owl:Class"
+  }, {
+    "id" : "209",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "210",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "199",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "owl:Class"
+  }, {
+    "id" : "194",
+    "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000028",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-28T00:12:11Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000028",
-      "en" : "environmental science"
-    },
-    "subClasses" : [ "11" ],
-    "attributes" : [ "external" ],
-    "id" : "9",
-    "superClasses" : [ "10" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000027",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-27T23:52:38Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000027",
-      "en" : "engineering and technology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "14",
-    "superClasses" : [ "15" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000029",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T21:23:09Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000029",
-      "en" : "environmental chemistry"
-    },
-    "attributes" : [ "external" ],
-    "id" : "11",
-    "superClasses" : [ "9" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000024",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-27T23:47:36Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000024",
-      "en" : "applied sciences"
-    },
-    "subClasses" : [ "14", "21" ],
-    "attributes" : [ "external" ],
-    "id" : "15",
-    "superClasses" : [ "20" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000023",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-27T23:47:27Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000023",
-      "en" : "formal sciences"
-    },
-    "subClasses" : [ "23" ],
-    "attributes" : [ "external" ],
-    "id" : "22",
-    "superClasses" : [ "20" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000026",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-27T23:52:26Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000026",
-      "en" : "business"
-    },
-    "attributes" : [ "external" ],
-    "id" : "21",
-    "superClasses" : [ "15" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000022",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-27T23:47:16Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000022",
-      "en" : "space science"
-    },
-    "attributes" : [ "external" ],
-    "id" : "24",
-    "superClasses" : [ "25" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000021",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-27T23:47:03Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000021",
-      "en" : "earth science"
-    },
-    "subClasses" : [ "9", "26", "27", "28", "29" ],
-    "attributes" : [ "external" ],
-    "id" : "10",
-    "superClasses" : [ "25" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000039",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T21:37:23Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000039",
-      "en" : "biogeography"
-    },
-    "subClasses" : [ "39", "40" ],
-    "attributes" : [ "external" ],
-    "id" : "38",
-    "superClasses" : [ "29" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000038",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T21:33:03Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000038",
-      "en" : "atmospheric dynamics"
-    },
-    "attributes" : [ "external" ],
-    "id" : "44",
-    "superClasses" : [ "45" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000035",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T21:33:03Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000035",
-      "en" : "climatology"
-    },
-    "subClasses" : [ "53" ],
-    "attributes" : [ "external" ],
-    "id" : "52",
-    "superClasses" : [ "45" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000034",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T21:33:03Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000034",
-      "en" : "meteorology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "55",
-    "superClasses" : [ "45" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000037",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000037",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
@@ -756,31 +457,11 @@
       "en" : "atmospheric chemistry"
     },
     "attributes" : [ "external" ],
-    "id" : "56",
-    "superClasses" : [ "45" ]
+    "id" : "0",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://edamontology.org/topic_2269",
-    "baseIri" : "http://edamontology.org",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://edamontology.org/topic_2269",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "topic_2269",
-      "en" : "statistics and probability"
-    },
-    "subClasses" : [ "57" ],
-    "attributes" : [ "external" ],
-    "id" : "23",
-    "superClasses" : [ "22" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000036",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000038",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
@@ -797,15 +478,67 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000036",
-      "en" : "atmospheric physics"
+      "IRI-based" : "ADO__0000038",
+      "en" : "atmospheric dynamics"
     },
     "attributes" : [ "external" ],
-    "id" : "58",
-    "superClasses" : [ "45" ]
+    "id" : "5",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000031",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000039",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T21:37:23Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000039",
+      "en" : "biogeography"
+    },
+    "subClasses" : [ "10", "11" ],
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000030",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T21:24:44Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000030",
+      "en" : "geochemistry"
+    },
+    "subClasses" : [ "25" ],
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "23", "24" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000031",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
@@ -826,63 +559,11 @@
       "en" : "geodesy"
     },
     "attributes" : [ "external" ],
-    "id" : "27",
-    "superClasses" : [ "28", "10" ]
+    "id" : "26",
+    "superClasses" : [ "27", "28" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000030",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T21:24:44Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000030",
-      "en" : "geochemistry"
-    },
-    "subClasses" : [ "61" ],
-    "attributes" : [ "external" ],
-    "id" : "59",
-    "superClasses" : [ "60", "51" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000033",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T21:27:17Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000033",
-      "en" : "atmospheric science"
-    },
-    "subClasses" : [ "44", "52", "55", "56", "58" ],
-    "attributes" : [ "external" ],
-    "id" : "45",
-    "superClasses" : [ "29" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000032",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
@@ -902,19 +583,19 @@
       "IRI-based" : "ADO__0000032",
       "en" : "physical geography"
     },
-    "subClasses" : [ "38", "62", "63", "64", "60", "65", "66", "67", "45", "68", "69", "70", "71" ],
+    "subClasses" : [ "8", "29", "30", "1", "31", "32", "33", "34", "24", "35", "36", "37", "38" ],
     "attributes" : [ "external" ],
-    "id" : "29",
-    "superClasses" : [ "10" ]
+    "id" : "9",
+    "superClasses" : [ "28" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000049",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000033",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T22:08:43Z",
+        "value" : "2019-08-29T21:27:17Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -925,21 +606,22 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000049",
-      "en" : "geological oceanography"
+      "IRI-based" : "ADO__0000033",
+      "en" : "atmospheric science"
     },
+    "subClasses" : [ "0", "5", "39", "40", "41" ],
     "attributes" : [ "external" ],
-    "id" : "79",
-    "superClasses" : [ "62" ]
+    "id" : "1",
+    "superClasses" : [ "9" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000046",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000034",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T22:07:54Z",
+        "value" : "2019-08-29T21:33:03Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -950,22 +632,21 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000046",
-      "en" : "oceanography"
+      "IRI-based" : "ADO__0000034",
+      "en" : "meteorology"
     },
-    "subClasses" : [ "80", "81", "79", "82", "83" ],
     "attributes" : [ "external" ],
-    "id" : "62",
-    "superClasses" : [ "29" ]
+    "id" : "39",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000045",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000035",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T21:57:51Z",
+        "value" : "2019-08-29T21:33:03Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -976,15 +657,41 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000045",
-      "en" : "coastal geography"
+      "IRI-based" : "ADO__0000035",
+      "en" : "climatology"
+    },
+    "subClasses" : [ "19" ],
+    "attributes" : [ "external" ],
+    "id" : "40",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000036",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T21:33:03Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000036",
+      "en" : "atmospheric physics"
     },
     "attributes" : [ "external" ],
-    "id" : "64",
-    "superClasses" : [ "29" ]
+    "id" : "41",
+    "superClasses" : [ "1" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000048",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000048",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
@@ -1005,11 +712,218 @@
       "en" : "chemical oceanography"
     },
     "attributes" : [ "external" ],
-    "id" : "82",
-    "superClasses" : [ "62" ]
+    "id" : "46",
+    "superClasses" : [ "37" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000047",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000049",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:08:43Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000049",
+      "en" : "geological oceanography"
+    },
+    "attributes" : [ "external" ],
+    "id" : "49",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000040",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T21:37:48Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000040",
+      "en" : "phytogeography"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000041",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T21:38:18Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000041",
+      "en" : "zoogeography"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://edamontology.org/topic_2269",
+    "baseIri" : "http://edamontology.org",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://edamontology.org/topic_2269",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "topic_2269",
+      "en" : "statistics and probability"
+    },
+    "subClasses" : [ "68" ],
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "67" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000043",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T21:51:55Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000043",
+      "en" : "paleoclimatology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "4", "40" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000044",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "hasExactSynonym" : [ {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "paleogeomorphology",
+        "type" : "label"
+      }, {
+        "identifier" : "hasExactSynonym",
+        "language" : "undefined",
+        "value" : "palaeogeopgraphy",
+        "type" : "label"
+      } ],
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T21:54:46Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000044",
+      "en" : "paleogeography"
+    },
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000045",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T21:57:51Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000045",
+      "en" : "coastal geography"
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000046",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:07:54Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000046",
+      "en" : "oceanography"
+    },
+    "subClasses" : [ "46", "49", "69", "70", "71" ],
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000047",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "hasExactSynonym" : [ {
@@ -1036,17 +950,17 @@
       "en" : "biological oceanography"
     },
     "attributes" : [ "external" ],
-    "id" : "83",
-    "superClasses" : [ "62" ]
+    "id" : "71",
+    "superClasses" : [ "37" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000041",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000015",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T21:38:18Z",
+        "value" : "2019-08-27T23:16:09Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -1057,32 +971,21 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000041",
-      "en" : "zoogeography"
+      "IRI-based" : "ADO__0000015",
+      "en" : "human geography"
     },
     "attributes" : [ "external" ],
-    "id" : "40",
-    "superClasses" : [ "38" ]
+    "id" : "79",
+    "superClasses" : [ "80" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000044",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000016",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
-      "hasExactSynonym" : [ {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "palaeogeopgraphy",
-        "type" : "label"
-      }, {
-        "identifier" : "hasExactSynonym",
-        "language" : "undefined",
-        "value" : "paleogeomorphology",
-        "type" : "label"
-      } ],
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T21:54:46Z",
+        "value" : "2019-08-27T23:16:19Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -1093,323 +996,21 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000044",
-      "en" : "paleogeography"
-    },
-    "attributes" : [ "external" ],
-    "id" : "68",
-    "superClasses" : [ "29" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000043",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T21:51:55Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000043",
-      "en" : "paleoclimatology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "53",
-    "superClasses" : [ "52", "26" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000040",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T21:37:48Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000040",
-      "en" : "phytogeography"
-    },
-    "attributes" : [ "external" ],
-    "id" : "39",
-    "superClasses" : [ "38" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000057",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:22:05Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000057",
-      "en" : "biogeology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "84",
-    "superClasses" : [ "60" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000056",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:17:04Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000056",
-      "en" : "geology"
-    },
-    "subClasses" : [ "84", "26", "85", "86", "87", "88", "89", "90", "59", "91", "92", "57", "93", "94", "95", "96", "97", "98", "99", "100", "101" ],
-    "attributes" : [ "external" ],
-    "id" : "60",
-    "superClasses" : [ "29" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000059",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:22:05Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000059",
-      "en" : "engineering geology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "86",
-    "superClasses" : [ "60" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000058",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:22:05Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000058",
-      "en" : "economic geology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "87",
-    "superClasses" : [ "60" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000053",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:12:21Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000053",
-      "en" : "edaphology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "102",
-    "superClasses" : [ "67" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000052",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:12:06Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000052",
-      "en" : "soil science"
-    },
-    "subClasses" : [ "102", "103" ],
-    "attributes" : [ "external" ],
-    "id" : "67",
-    "superClasses" : [ "29" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000055",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:15:11Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000055",
-      "en" : "geobiology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "69",
-    "superClasses" : [ "29" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000054",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:12:30Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000054",
-      "en" : "pedology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "103",
-    "superClasses" : [ "67" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000051",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:10:48Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000051",
-      "en" : "paleoceanography"
-    },
-    "attributes" : [ "external" ],
-    "id" : "80",
-    "superClasses" : [ "62" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000050",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:08:56Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000050",
-      "en" : "physical oceanography"
+      "IRI-based" : "ADO__0000016",
+      "en" : "political science"
     },
     "attributes" : [ "external" ],
     "id" : "81",
-    "superClasses" : [ "62" ]
+    "superClasses" : [ "80" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000188",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000017",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-09-06T22:42:53Z",
+        "value" : "2019-08-27T23:16:32Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -1420,21 +1021,21 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000188",
-      "en" : "discipline agnostic"
+      "IRI-based" : "ADO__0000017",
+      "en" : "psychology"
     },
     "attributes" : [ "external" ],
-    "id" : "36",
-    "superClasses" : [ "20" ]
+    "id" : "82",
+    "superClasses" : [ "80" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000067",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000018",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T22:22:05Z",
+        "value" : "2019-08-27T23:16:39Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -1445,21 +1046,21 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000067",
-      "en" : "mining geology"
+      "IRI-based" : "ADO__0000018",
+      "en" : "sociology"
     },
     "attributes" : [ "external" ],
-    "id" : "85",
-    "superClasses" : [ "60" ]
+    "id" : "83",
+    "superClasses" : [ "80" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000069",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000019",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T22:22:05Z",
+        "value" : "2019-08-27T23:16:57Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -1470,21 +1071,22 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000069",
-      "en" : "petroleum geology"
+      "IRI-based" : "ADO__0000019",
+      "en" : "natural sciences"
     },
+    "subClasses" : [ "86", "28", "23", "87", "88" ],
     "attributes" : [ "external" ],
-    "id" : "88",
-    "superClasses" : [ "60" ]
+    "id" : "84",
+    "superClasses" : [ "85" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000064",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000010",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T22:22:05Z",
+        "value" : "2019-08-27T23:15:08Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -1495,21 +1097,21 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000064",
-      "en" : "historical geology"
+      "IRI-based" : "ADO__0000010",
+      "en" : "theology"
     },
     "attributes" : [ "external" ],
     "id" : "89",
-    "superClasses" : [ "60" ]
+    "superClasses" : [ "90" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000063",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T22:22:05Z",
+        "value" : "2019-08-27T23:15:25Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -1520,22 +1122,22 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000063",
-      "en" : "geophysics"
+      "IRI-based" : "ADO__0000011",
+      "en" : "social sciences"
     },
-    "subClasses" : [ "104", "27", "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115" ],
+    "subClasses" : [ "79", "81", "82", "83", "91", "92", "93" ],
     "attributes" : [ "external" ],
-    "id" : "28",
-    "superClasses" : [ "32", "10" ]
+    "id" : "80",
+    "superClasses" : [ "85" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000066",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000012",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T22:22:05Z",
+        "value" : "2019-08-27T23:15:38Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -1546,222 +1148,21 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000066",
-      "en" : "mineralogy"
-    },
-    "attributes" : [ "external" ],
-    "id" : "92",
-    "superClasses" : [ "60" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000065",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:22:05Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000065",
-      "en" : "marine geology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "93",
-    "superClasses" : [ "60" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000060",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:22:05Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000060",
-      "en" : "environmental geology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "95",
-    "superClasses" : [ "60" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000062",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:22:05Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000062",
-      "en" : "geomorphology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "98",
-    "superClasses" : [ "60" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000061",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:22:05Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000061",
-      "en" : "geologic modeling"
-    },
-    "attributes" : [ "external" ],
-    "id" : "100",
-    "superClasses" : [ "60" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000079",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:33:44Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000079",
-      "en" : "hydrology"
-    },
-    "subClasses" : [ "116", "117", "118", "119", "120", "121", "122" ],
-    "attributes" : [ "external" ],
-    "id" : "63",
-    "superClasses" : [ "29" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000078",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:30:49Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000078",
-      "en" : "glaciology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "65",
-    "superClasses" : [ "29" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000075",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:28:06Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000075",
-      "en" : "speleology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "90",
-    "superClasses" : [ "60" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000074",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:22:05Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000074",
-      "en" : "volcanology"
+      "IRI-based" : "ADO__0000012",
+      "en" : "anthropology"
     },
     "attributes" : [ "external" ],
     "id" : "91",
-    "superClasses" : [ "60" ]
+    "superClasses" : [ "80" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000077",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000013",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T22:29:35Z",
+        "value" : "2019-08-27T23:15:48Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -1772,21 +1173,21 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000077",
-      "en" : "geostatistics"
+      "IRI-based" : "ADO__0000013",
+      "en" : "archaeology"
     },
     "attributes" : [ "external" ],
-    "id" : "57",
-    "superClasses" : [ "60", "23" ]
+    "id" : "92",
+    "superClasses" : [ "80" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000076",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000014",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T22:28:15Z",
+        "value" : "2019-08-27T23:15:57Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -1797,21 +1198,46 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000076",
-      "en" : "tectonics"
+      "IRI-based" : "ADO__0000014",
+      "en" : "economics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "93",
+    "superClasses" : [ "80" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000026",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-27T23:52:26Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000026",
+      "en" : "business"
     },
     "attributes" : [ "external" ],
     "id" : "94",
-    "superClasses" : [ "60" ]
+    "superClasses" : [ "95" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000071",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000027",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T22:22:05Z",
+        "value" : "2019-08-27T23:52:38Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -1822,21 +1248,21 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000071",
-      "en" : "sedimentology"
+      "IRI-based" : "ADO__0000027",
+      "en" : "engineering and technology"
     },
     "attributes" : [ "external" ],
     "id" : "96",
-    "superClasses" : [ "60" ]
+    "superClasses" : [ "95" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000070",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000028",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T22:22:05Z",
+        "value" : "2019-08-28T00:12:11Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -1847,15 +1273,892 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000070",
-      "en" : "petrology"
+      "IRI-based" : "ADO__0000028",
+      "en" : "environmental science"
     },
+    "subClasses" : [ "98" ],
     "attributes" : [ "external" ],
     "id" : "97",
-    "superClasses" : [ "60" ]
+    "superClasses" : [ "28" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000073",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000029",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T21:23:09Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000029",
+      "en" : "environmental chemistry"
+    },
+    "attributes" : [ "external" ],
+    "id" : "98",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000021",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-27T23:47:03Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000021",
+      "en" : "earth science"
+    },
+    "subClasses" : [ "97", "27", "26", "9", "4" ],
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "84" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000022",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-27T23:47:16Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000022",
+      "en" : "space science"
+    },
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "84" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000023",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-27T23:47:27Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000023",
+      "en" : "formal sciences"
+    },
+    "subClasses" : [ "66" ],
+    "attributes" : [ "external" ],
+    "id" : "67",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000024",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-27T23:47:36Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000024",
+      "en" : "applied sciences"
+    },
+    "subClasses" : [ "94", "96" ],
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000004",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-27T23:11:27Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000004",
+      "en" : "performing arts"
+    },
+    "attributes" : [ "external" ],
+    "id" : "99",
+    "superClasses" : [ "100" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000005",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-27T23:12:12Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000005",
+      "en" : "visual arts"
+    },
+    "attributes" : [ "external" ],
+    "id" : "101",
+    "superClasses" : [ "100" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000006",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-27T23:12:26Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000006",
+      "en" : "history"
+    },
+    "attributes" : [ "external" ],
+    "id" : "102",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000007",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-27T23:14:37Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000007",
+      "en" : "languages and literature"
+    },
+    "attributes" : [ "external" ],
+    "id" : "103",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000008",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-27T23:14:46Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000008",
+      "en" : "law"
+    },
+    "attributes" : [ "external" ],
+    "id" : "104",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000009",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-27T23:14:56Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000009",
+      "en" : "philosophy"
+    },
+    "attributes" : [ "external" ],
+    "id" : "105",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-27T23:09:52Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000001",
+      "en" : "academic discipline"
+    },
+    "subClasses" : [ "84", "80", "67", "106", "90", "95" ],
+    "attributes" : [ "external" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-27T23:10:43Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000002",
+      "en" : "humanities"
+    },
+    "subClasses" : [ "102", "103", "104", "105", "89", "100" ],
+    "attributes" : [ "external" ],
+    "id" : "90",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000003",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-27T23:10:53Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000003",
+      "en" : "arts"
+    },
+    "subClasses" : [ "99", "101" ],
+    "attributes" : [ "external" ],
+    "id" : "100",
+    "superClasses" : [ "90" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000103",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T23:01:55Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000103",
+      "en" : "invertebrate paleontology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000104",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T23:03:31Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000104",
+      "en" : "paleobotany"
+    },
+    "attributes" : [ "external" ],
+    "id" : "45",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000105",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T23:03:31Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000105",
+      "en" : "palynology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000106",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T23:03:31Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000106",
+      "en" : "micropaleontology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000107",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T23:03:31Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000107",
+      "en" : "paleoecology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000108",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T23:03:31Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000108",
+      "en" : "biostratigraphy"
+    },
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000109",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T23:05:08Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000109",
+      "en" : "paleobiology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000100",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:49:19Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000100",
+      "en" : "tectonophysics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "53",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:59:24Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000101",
+      "en" : "paleontology"
+    },
+    "subClasses" : [ "43", "45", "3", "7", "13", "15", "17", "19", "21" ],
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "28", "24" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000102",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T23:01:44Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000102",
+      "en" : "vertebrate paleontology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://edamontology.org/topic_3070",
+    "baseIri" : "http://edamontology.org",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://edamontology.org/topic_3070",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "topic_3070",
+      "undefined" : "biology"
+    },
+    "subClasses" : [ "110" ],
+    "attributes" : [ "external" ],
+    "id" : "86",
+    "superClasses" : [ "84" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000095",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:49:19Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000095",
+      "en" : "mathematical geophysics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "75",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000096",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:49:19Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000096",
+      "en" : "mineral physics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "73",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000097",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:49:19Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000097",
+      "en" : "near-surface geophysics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "78",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000098",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:49:19Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000098",
+      "en" : "paleomagnetism"
+    },
+    "attributes" : [ "external" ],
+    "id" : "48",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000099",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:49:19Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000099",
+      "en" : "seisomology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "51",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000090",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:49:19Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000090",
+      "en" : "biogeophysics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "55",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000091",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:49:19Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000091",
+      "en" : "exploration geophysics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "57",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000092",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:49:19Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000092",
+      "en" : "geophysical fluid dynamics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "61",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000093",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:49:19Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000093",
+      "en" : "geodynamics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "63",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000094",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:49:19Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000094",
+      "en" : "geomagnetism"
+    },
+    "attributes" : [ "external" ],
+    "id" : "65",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000073",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
@@ -1876,11 +2179,237 @@
       "en" : "structural geology"
     },
     "attributes" : [ "external" ],
-    "id" : "99",
-    "superClasses" : [ "60" ]
+    "id" : "160",
+    "superClasses" : [ "24" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000072",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000074",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:22:05Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000074",
+      "en" : "volcanology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "161",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000075",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:28:06Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000075",
+      "en" : "speleology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "162",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000076",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:28:15Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000076",
+      "en" : "tectonics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "163",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000077",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:29:35Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000077",
+      "en" : "geostatistics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "68",
+    "superClasses" : [ "66", "24" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000078",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:30:49Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000078",
+      "en" : "glaciology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "35",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:33:44Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000079",
+      "en" : "hydrology"
+    },
+    "subClasses" : [ "130", "134", "132", "164", "165", "166", "167" ],
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000190",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-30T21:51:54Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000190",
+      "en" : "magnetotellurics"
+    },
+    "attributes" : [ "external" ],
+    "id" : "59",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000070",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:22:05Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000070",
+      "en" : "petrology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "168",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000071",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:22:05Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000071",
+      "en" : "sedimentology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "169",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000072",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
@@ -1901,36 +2430,11 @@
       "en" : "stratigraphy"
     },
     "attributes" : [ "external" ],
-    "id" : "101",
-    "superClasses" : [ "60" ]
+    "id" : "170",
+    "superClasses" : [ "24" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000089",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:41:10Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000089",
-      "en" : "quaternary science"
-    },
-    "attributes" : [ "external" ],
-    "id" : "66",
-    "superClasses" : [ "29" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000086",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000084",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
@@ -1947,15 +2451,15 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000086",
-      "en" : "surface hydrology"
+      "IRI-based" : "ADO__0000084",
+      "en" : "hydrometeorology"
     },
     "attributes" : [ "external" ],
-    "id" : "121",
-    "superClasses" : [ "63" ]
+    "id" : "165",
+    "superClasses" : [ "38" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000085",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000085",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
@@ -1976,17 +2480,17 @@
       "en" : "isotope hydrology"
     },
     "attributes" : [ "external" ],
-    "id" : "122",
-    "superClasses" : [ "63" ]
+    "id" : "166",
+    "superClasses" : [ "38" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000088",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000086",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T22:40:11Z",
+        "value" : "2019-08-29T22:35:13Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -1997,15 +2501,35 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000088",
-      "en" : "landscape ecology"
+      "IRI-based" : "ADO__0000086",
+      "en" : "surface hydrology"
     },
     "attributes" : [ "external" ],
-    "id" : "70",
-    "superClasses" : [ "73", "29" ]
+    "id" : "167",
+    "superClasses" : [ "38" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000087",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://edamontology.org/topic_3314",
+    "baseIri" : "http://edamontology.org",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://edamontology.org/topic_3314",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "topic_3314",
+      "undefined" : "http://cor.esipfed.org/ont/earthcube/ADO/chemistry"
+    },
+    "subClasses" : [ "22" ],
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "84" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000087",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
@@ -2026,11 +2550,131 @@
       "en" : "limnology"
     },
     "attributes" : [ "external" ],
-    "id" : "71",
-    "superClasses" : [ "29" ]
+    "id" : "30",
+    "superClasses" : [ "9" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000082",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000088",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:40:11Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000088",
+      "en" : "landscape ecology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "110", "9" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000089",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:41:10Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000089",
+      "en" : "quaternary science"
+    },
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://edamontology.org/topic_3318",
+    "baseIri" : "http://edamontology.org",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://edamontology.org/topic_3318",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "topic_3318",
+      "en" : "physics"
+    },
+    "subClasses" : [ "27" ],
+    "attributes" : [ "external" ],
+    "id" : "88",
+    "superClasses" : [ "84" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000080",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:35:13Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000080",
+      "en" : "chemical hydrology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "130",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000081",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:35:13Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000081",
+      "en" : "ecohydrology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "134",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000082",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "hasRelatedSynonym" : [ {
@@ -2062,61 +2706,11 @@
       "en" : "hydrogeology"
     },
     "attributes" : [ "external" ],
-    "id" : "116",
-    "superClasses" : [ "63" ]
+    "id" : "132",
+    "superClasses" : [ "38" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000081",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:35:13Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000081",
-      "en" : "ecohydrology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "117",
-    "superClasses" : [ "63" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000084",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:35:13Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000084",
-      "en" : "hydrometeorology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "118",
-    "superClasses" : [ "63" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000083",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000083",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
@@ -2137,17 +2731,17 @@
       "en" : "hydroinformatics"
     },
     "attributes" : [ "external" ],
-    "id" : "119",
-    "superClasses" : [ "63" ]
+    "id" : "164",
+    "superClasses" : [ "38" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000080",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000059",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T22:35:13Z",
+        "value" : "2019-08-29T22:22:05Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -2158,21 +2752,21 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000080",
-      "en" : "chemical hydrology"
+      "IRI-based" : "ADO__0000059",
+      "en" : "engineering geology"
     },
     "attributes" : [ "external" ],
-    "id" : "120",
-    "superClasses" : [ "63" ]
+    "id" : "188",
+    "superClasses" : [ "24" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000097",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000051",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-29T22:49:19Z",
+        "value" : "2019-08-29T22:10:48Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -2183,749 +2777,12 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000097",
-      "en" : "near-surface geophysics"
+      "IRI-based" : "ADO__0000051",
+      "en" : "paleoceanography"
     },
     "attributes" : [ "external" ],
-    "id" : "105",
-    "superClasses" : [ "28" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000096",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:49:19Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000096",
-      "en" : "mineral physics"
-    },
-    "attributes" : [ "external" ],
-    "id" : "107",
-    "superClasses" : [ "28" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000099",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:49:19Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000099",
-      "en" : "seisomology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "108",
-    "superClasses" : [ "28" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000098",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:49:19Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000098",
-      "en" : "paleomagnetism"
-    },
-    "attributes" : [ "external" ],
-    "id" : "109",
-    "superClasses" : [ "28" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000093",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:49:19Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000093",
-      "en" : "geodynamics"
-    },
-    "attributes" : [ "external" ],
-    "id" : "110",
-    "superClasses" : [ "28" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000092",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:49:19Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000092",
-      "en" : "geophysical fluid dynamics"
-    },
-    "attributes" : [ "external" ],
-    "id" : "111",
-    "superClasses" : [ "28" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000095",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:49:19Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000095",
-      "en" : "mathematical geophysics"
-    },
-    "attributes" : [ "external" ],
-    "id" : "112",
-    "superClasses" : [ "28" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000094",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:49:19Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000094",
-      "en" : "geomagnetism"
-    },
-    "attributes" : [ "external" ],
-    "id" : "113",
-    "superClasses" : [ "28" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000091",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:49:19Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000091",
-      "en" : "exploration geophysics"
-    },
-    "attributes" : [ "external" ],
-    "id" : "114",
-    "superClasses" : [ "28" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000090",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:49:19Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000090",
-      "en" : "biogeophysics"
-    },
-    "attributes" : [ "external" ],
-    "id" : "115",
-    "superClasses" : [ "28" ]
-  }, {
-    "iri" : "http://edamontology.org/topic_3070",
-    "baseIri" : "http://edamontology.org",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://edamontology.org/topic_3070",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "topic_3070",
-      "undefined" : "biology"
-    },
-    "subClasses" : [ "73" ],
-    "attributes" : [ "external" ],
-    "id" : "49",
-    "superClasses" : [ "25" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000109",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T23:05:08Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000109",
-      "en" : "paleobiology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "166",
-    "superClasses" : [ "26" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000108",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T23:03:31Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000108",
-      "en" : "biostratigraphy"
-    },
-    "attributes" : [ "external" ],
-    "id" : "168",
-    "superClasses" : [ "26" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000105",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T23:03:31Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000105",
-      "en" : "palynology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "172",
-    "superClasses" : [ "26" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000104",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T23:03:31Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000104",
-      "en" : "paleobotany"
-    },
-    "attributes" : [ "external" ],
-    "id" : "173",
-    "superClasses" : [ "26" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000107",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T23:03:31Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000107",
-      "en" : "paleoecology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "174",
-    "superClasses" : [ "26" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000106",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T23:03:31Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000106",
-      "en" : "micropaleontology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "176",
-    "superClasses" : [ "26" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000101",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:59:24Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000101",
-      "en" : "paleontology"
-    },
-    "subClasses" : [ "166", "168", "172", "173", "174", "176", "177", "178", "53" ],
-    "attributes" : [ "external" ],
-    "id" : "26",
-    "superClasses" : [ "60", "10" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000100",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T22:49:19Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000100",
-      "en" : "tectonophysics"
-    },
-    "attributes" : [ "external" ],
-    "id" : "104",
-    "superClasses" : [ "28" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000103",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T23:01:55Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000103",
-      "en" : "invertebrate paleontology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "177",
-    "superClasses" : [ "26" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000102",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-29T23:01:44Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000102",
-      "en" : "vertebrate paleontology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "178",
-    "superClasses" : [ "26" ]
-  }, {
-    "iri" : "http://edamontology.org/topic_3314",
-    "baseIri" : "http://edamontology.org",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://edamontology.org/topic_3314",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "topic_3314",
-      "undefined" : "http://cor.esipfed.org/ont/~rduerr/ADO/chemistry"
-    },
-    "subClasses" : [ "59" ],
-    "attributes" : [ "external" ],
-    "id" : "51",
-    "superClasses" : [ "25" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ECCRO_0000309",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-09-30T21:51:54Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ECCRO_0000309",
-      "en" : "magnetotellurics"
-    },
-    "attributes" : [ "external" ],
-    "id" : "106",
-    "superClasses" : [ "28" ]
-  }, {
-    "iri" : "http://edamontology.org/topic_3318",
-    "baseIri" : "http://edamontology.org",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://edamontology.org/topic_3318",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "topic_3318",
-      "en" : "physics"
-    },
-    "subClasses" : [ "28" ],
-    "attributes" : [ "external" ],
-    "id" : "32",
-    "superClasses" : [ "25" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000009",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-27T23:14:56Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000009",
-      "en" : "philosophy"
-    },
-    "attributes" : [ "external" ],
-    "id" : "198",
-    "superClasses" : [ "76" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/earthcube/RTE_000011",
-    "baseIri" : "http://cor.esipfed.org/ont/earthcube",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-10-18T23:32:20Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "RTE_000011",
-      "en" : "geochronology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "61",
-    "superClasses" : [ "59" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000006",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-27T23:12:26Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000006",
-      "en" : "history"
-    },
-    "attributes" : [ "external" ],
-    "id" : "200",
-    "superClasses" : [ "76" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000005",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-27T23:12:12Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000005",
-      "en" : "visual arts"
-    },
-    "attributes" : [ "external" ],
-    "id" : "42",
-    "superClasses" : [ "43" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000008",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-27T23:14:46Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000008",
-      "en" : "law"
-    },
-    "attributes" : [ "external" ],
-    "id" : "197",
-    "superClasses" : [ "76" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000007",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-27T23:14:37Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000007",
-      "en" : "languages and literature"
-    },
-    "attributes" : [ "external" ],
-    "id" : "203",
-    "superClasses" : [ "76" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000002",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-27T23:10:43Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000002",
-      "en" : "humanities"
-    },
-    "subClasses" : [ "198", "200", "197", "203", "43", "75" ],
-    "attributes" : [ "external" ],
-    "id" : "76",
-    "superClasses" : [ "20" ]
+    "id" : "70",
+    "superClasses" : [ "37" ]
   }, {
     "iri" : "http://edamontology.org/topic_0610",
     "baseIri" : "http://edamontology.org",
@@ -2942,19 +2799,19 @@
       "IRI-based" : "topic_0610",
       "undefined" : "ecology"
     },
-    "subClasses" : [ "70" ],
+    "subClasses" : [ "33" ],
     "attributes" : [ "external" ],
-    "id" : "73",
-    "superClasses" : [ "49" ]
+    "id" : "110",
+    "superClasses" : [ "86" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000001",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000052",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-27T23:09:52Z",
+        "value" : "2019-08-29T22:12:06Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -2965,21 +2822,22 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000001",
-      "en" : "academic discipline"
+      "IRI-based" : "ADO__0000052",
+      "en" : "soil science"
     },
-    "subClasses" : [ "25", "76", "15", "22", "36", "2" ],
+    "subClasses" : [ "157", "201" ],
     "attributes" : [ "external" ],
-    "id" : "20"
+    "id" : "29",
+    "superClasses" : [ "9" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000004",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000053",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-27T23:11:27Z",
+        "value" : "2019-08-29T22:12:21Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -2990,21 +2848,21 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000004",
-      "en" : "performing arts"
+      "IRI-based" : "ADO__0000053",
+      "en" : "edaphology"
     },
     "attributes" : [ "external" ],
-    "id" : "47",
-    "superClasses" : [ "43" ]
+    "id" : "157",
+    "superClasses" : [ "29" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000003",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000054",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-27T23:10:53Z",
+        "value" : "2019-08-29T22:12:30Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -3015,22 +2873,21 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000003",
-      "en" : "arts"
+      "IRI-based" : "ADO__0000054",
+      "en" : "pedology"
     },
-    "subClasses" : [ "42", "47" ],
     "attributes" : [ "external" ],
-    "id" : "43",
-    "superClasses" : [ "76" ]
+    "id" : "201",
+    "superClasses" : [ "29" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000017",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000055",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-27T23:16:32Z",
+        "value" : "2019-08-29T22:15:11Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -3041,21 +2898,21 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000017",
-      "en" : "psychology"
+      "IRI-based" : "ADO__0000055",
+      "en" : "geobiology"
     },
     "attributes" : [ "external" ],
-    "id" : "1",
-    "superClasses" : [ "2" ]
+    "id" : "32",
+    "superClasses" : [ "9" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000016",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-27T23:16:19Z",
+        "value" : "2019-08-29T22:17:04Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -3066,21 +2923,22 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000016",
-      "en" : "political science"
+      "IRI-based" : "ADO__0000056",
+      "en" : "geology"
     },
+    "subClasses" : [ "188", "206", "160", "22", "161", "207", "162", "208", "163", "209", "68", "210", "211", "4", "196", "199", "168", "191", "169", "194", "170" ],
     "attributes" : [ "external" ],
-    "id" : "4",
-    "superClasses" : [ "2" ]
+    "id" : "24",
+    "superClasses" : [ "9" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000019",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000057",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-27T23:16:57Z",
+        "value" : "2019-08-29T22:22:05Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -3091,22 +2949,272 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000019",
-      "en" : "natural sciences"
+      "IRI-based" : "ADO__0000057",
+      "en" : "biogeology"
     },
-    "subClasses" : [ "49", "51", "24", "10", "32" ],
+    "attributes" : [ "external" ],
+    "id" : "211",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000058",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:22:05Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000058",
+      "en" : "economic geology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "196",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000050",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:08:56Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000050",
+      "en" : "physical oceanography"
+    },
+    "attributes" : [ "external" ],
+    "id" : "69",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000062",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:22:05Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000062",
+      "en" : "geomorphology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "206",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:22:05Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000063",
+      "en" : "geophysics"
+    },
+    "subClasses" : [ "75", "73", "26", "78", "48", "51", "53", "55", "57", "59", "61", "63", "65" ],
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "28", "88" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000064",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:22:05Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000064",
+      "en" : "historical geology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "207",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000065",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:22:05Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000065",
+      "en" : "marine geology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "208",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000066",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:22:05Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000066",
+      "en" : "mineralogy"
+    },
+    "attributes" : [ "external" ],
+    "id" : "209",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000188",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-09-06T22:42:53Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000188",
+      "en" : "discipline agnostic"
+    },
+    "attributes" : [ "external" ],
+    "id" : "106",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000067",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-08-29T22:22:05Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000067",
+      "en" : "mining geology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "210",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000189",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-18T23:32:20Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ADO__0000189",
+      "en" : "geochronology"
+    },
     "attributes" : [ "external" ],
     "id" : "25",
-    "superClasses" : [ "20" ]
+    "superClasses" : [ "22" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000018",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000069",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-27T23:16:39Z",
+        "value" : "2019-08-29T22:22:05Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -3117,21 +3225,21 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000018",
-      "en" : "sociology"
+      "IRI-based" : "ADO__0000069",
+      "en" : "petroleum geology"
     },
     "attributes" : [ "external" ],
-    "id" : "6",
-    "superClasses" : [ "2" ]
+    "id" : "199",
+    "superClasses" : [ "24" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000013",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000060",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-27T23:15:48Z",
+        "value" : "2019-08-29T22:22:05Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -3142,21 +3250,21 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000013",
-      "en" : "archaeology"
+      "IRI-based" : "ADO__0000060",
+      "en" : "environmental geology"
     },
     "attributes" : [ "external" ],
-    "id" : "8",
-    "superClasses" : [ "2" ]
+    "id" : "191",
+    "superClasses" : [ "24" ]
   }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000012",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
+    "iri" : "http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000061",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/ADO",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-08-27T23:15:38Z",
+        "value" : "2019-08-29T22:22:05Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -3167,128 +3275,24 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "ADO__0000012",
-      "en" : "anthropology"
+      "IRI-based" : "ADO__0000061",
+      "en" : "geologic modeling"
     },
     "attributes" : [ "external" ],
-    "id" : "13",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000015",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-27T23:16:09Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000015",
-      "en" : "human geography"
-    },
-    "attributes" : [ "external" ],
-    "id" : "17",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000014",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-27T23:15:57Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000014",
-      "en" : "economics"
-    },
-    "attributes" : [ "external" ],
-    "id" : "19",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000011",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-27T23:15:25Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000011",
-      "en" : "social sciences"
-    },
-    "subClasses" : [ "1", "4", "6", "8", "13", "17", "19" ],
-    "attributes" : [ "external" ],
-    "id" : "2",
-    "superClasses" : [ "20" ]
-  }, {
-    "iri" : "http://cor.esipfed.org/ont/~rduerr/ADO/ADO__0000010",
-    "baseIri" : "http://cor.esipfed.org/ont/~rduerr/ADO",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-08-27T23:15:08Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "ADO__0000010",
-      "en" : "theology"
-    },
-    "attributes" : [ "external" ],
-    "id" : "75",
-    "superClasses" : [ "76" ]
+    "id" : "194",
+    "superClasses" : [ "24" ]
   } ],
   "property" : [ {
-    "id" : "0",
+    "id" : "2",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "3",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "5",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "7",
+    "id" : "6",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "16",
@@ -3297,37 +3301,40 @@
     "id" : "18",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "30",
+    "id" : "20",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "31",
+    "id" : "42",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "33",
+    "id" : "44",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "34",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "35",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "37",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "41",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "46",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "48",
+    "id" : "47",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "50",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "72",
@@ -3336,10 +3343,55 @@
     "id" : "74",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "77",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "78",
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "123",
@@ -3363,19 +3415,10 @@
     "id" : "129",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "130",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "131",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "132",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "133",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "134",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "135",
@@ -3444,46 +3487,34 @@
     "id" : "156",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "157",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "158",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "159",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "160",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "161",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "162",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "163",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "164",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "165",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "167",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "169",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "170",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "171",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "178",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "179",
@@ -3513,16 +3544,10 @@
     "id" : "187",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "188",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "189",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "190",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "191",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "192",
@@ -3531,46 +3556,28 @@
     "id" : "193",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "194",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "195",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "196",
+    "id" : "197",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "199",
+    "id" : "198",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "201",
+    "id" : "200",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "202",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "203",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "204",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "205",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "206",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "207",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "208",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "209",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "210",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "211",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "212",
@@ -3634,598 +3641,598 @@
     "type" : "rdfs:SubClassOf"
   } ],
   "propertyAttribute" : [ {
-    "range" : "2",
-    "domain" : "1",
+    "range" : "4",
+    "domain" : "3",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "0"
+    "id" : "2"
   }, {
-    "range" : "2",
-    "domain" : "4",
+    "range" : "4",
+    "domain" : "7",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "3"
+    "id" : "6"
   }, {
-    "range" : "2",
-    "domain" : "6",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "5"
-  }, {
-    "range" : "2",
-    "domain" : "8",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "7"
-  }, {
-    "range" : "2",
+    "range" : "4",
     "domain" : "13",
     "attributes" : [ "object", "anonymous" ],
     "id" : "12"
   }, {
-    "range" : "2",
+    "range" : "4",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "4",
     "domain" : "17",
     "attributes" : [ "object", "anonymous" ],
     "id" : "16"
   }, {
-    "range" : "2",
+    "range" : "4",
     "domain" : "19",
     "attributes" : [ "object", "anonymous" ],
     "id" : "18"
   }, {
-    "range" : "25",
-    "domain" : "10",
+    "range" : "4",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "30"
+    "id" : "20"
   }, {
-    "range" : "25",
-    "domain" : "32",
+    "range" : "4",
+    "domain" : "43",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "31"
+    "id" : "42"
   }, {
-    "range" : "20",
-    "domain" : "15",
+    "range" : "4",
+    "domain" : "45",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "33"
+    "id" : "44"
   }, {
-    "range" : "20",
-    "domain" : "22",
+    "range" : "27",
+    "domain" : "48",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "34"
+    "id" : "47"
   }, {
-    "range" : "20",
-    "domain" : "36",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "35"
-  }, {
-    "range" : "20",
-    "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "37"
-  }, {
-    "range" : "43",
-    "domain" : "42",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "41"
-  }, {
-    "range" : "43",
-    "domain" : "47",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "46"
-  }, {
-    "range" : "25",
-    "domain" : "49",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "48"
-  }, {
-    "range" : "25",
+    "range" : "27",
     "domain" : "51",
     "attributes" : [ "object", "anonymous" ],
     "id" : "50"
   }, {
-    "range" : "25",
-    "domain" : "24",
+    "range" : "27",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "27",
+    "domain" : "55",
     "attributes" : [ "object", "anonymous" ],
     "id" : "54"
   }, {
-    "range" : "73",
-    "domain" : "70",
+    "range" : "27",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "27",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "27",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
+  }, {
+    "range" : "27",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "range" : "27",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "27",
+    "domain" : "73",
     "attributes" : [ "object", "anonymous" ],
     "id" : "72"
   }, {
-    "range" : "76",
+    "range" : "27",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "74"
   }, {
-    "range" : "20",
-    "domain" : "25",
+    "range" : "27",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "76"
+  }, {
+    "range" : "27",
+    "domain" : "78",
     "attributes" : [ "object", "anonymous" ],
     "id" : "77"
   }, {
-    "range" : "20",
-    "domain" : "76",
+    "range" : "84",
+    "domain" : "28",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "78"
+    "id" : "107"
   }, {
-    "range" : "29",
+    "range" : "84",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "108"
+  }, {
+    "range" : "37",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "range" : "37",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "range" : "37",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "range" : "37",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "113"
+  }, {
+    "range" : "37",
     "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "range" : "40",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "115"
+  }, {
+    "range" : "1",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "116"
+  }, {
+    "range" : "66",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "range" : "86",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "118"
+  }, {
+    "range" : "1",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "119"
+  }, {
+    "range" : "1",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "range" : "1",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "range" : "9",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "122"
+  }, {
+    "range" : "9",
+    "domain" : "36",
     "attributes" : [ "object", "anonymous" ],
     "id" : "123"
   }, {
-    "range" : "29",
-    "domain" : "68",
+    "range" : "1",
+    "domain" : "0",
     "attributes" : [ "object", "anonymous" ],
     "id" : "124"
   }, {
-    "range" : "29",
-    "domain" : "45",
+    "range" : "9",
+    "domain" : "38",
     "attributes" : [ "object", "anonymous" ],
     "id" : "125"
   }, {
-    "range" : "29",
-    "domain" : "65",
+    "range" : "9",
+    "domain" : "34",
     "attributes" : [ "object", "anonymous" ],
     "id" : "126"
   }, {
-    "range" : "29",
-    "domain" : "60",
+    "range" : "9",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
     "id" : "127"
   }, {
-    "range" : "29",
-    "domain" : "67",
+    "range" : "9",
+    "domain" : "24",
     "attributes" : [ "object", "anonymous" ],
     "id" : "128"
   }, {
-    "range" : "29",
-    "domain" : "66",
+    "range" : "38",
+    "domain" : "130",
     "attributes" : [ "object", "anonymous" ],
     "id" : "129"
   }, {
-    "range" : "29",
-    "domain" : "62",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "130"
-  }, {
-    "range" : "29",
-    "domain" : "38",
+    "range" : "38",
+    "domain" : "132",
     "attributes" : [ "object", "anonymous" ],
     "id" : "131"
   }, {
-    "range" : "29",
-    "domain" : "64",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "132"
-  }, {
-    "range" : "29",
-    "domain" : "63",
+    "range" : "38",
+    "domain" : "134",
     "attributes" : [ "object", "anonymous" ],
     "id" : "133"
   }, {
-    "range" : "45",
-    "domain" : "56",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "134"
-  }, {
-    "range" : "45",
-    "domain" : "55",
+    "range" : "67",
+    "domain" : "66",
     "attributes" : [ "object", "anonymous" ],
     "id" : "135"
   }, {
-    "range" : "45",
-    "domain" : "58",
+    "range" : "28",
+    "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "136"
   }, {
-    "range" : "59",
-    "domain" : "61",
+    "range" : "95",
+    "domain" : "96",
     "attributes" : [ "object", "anonymous" ],
     "id" : "137"
   }, {
-    "range" : "23",
-    "domain" : "57",
+    "range" : "95",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
     "id" : "138"
   }, {
-    "range" : "45",
-    "domain" : "52",
+    "range" : "28",
+    "domain" : "27",
     "attributes" : [ "object", "anonymous" ],
     "id" : "139"
   }, {
-    "range" : "45",
-    "domain" : "44",
+    "range" : "28",
+    "domain" : "97",
     "attributes" : [ "object", "anonymous" ],
     "id" : "140"
   }, {
-    "range" : "38",
-    "domain" : "39",
+    "range" : "28",
+    "domain" : "9",
     "attributes" : [ "object", "anonymous" ],
     "id" : "141"
   }, {
-    "range" : "52",
-    "domain" : "53",
+    "range" : "28",
+    "domain" : "26",
     "attributes" : [ "object", "anonymous" ],
     "id" : "142"
   }, {
-    "range" : "38",
-    "domain" : "40",
+    "range" : "97",
+    "domain" : "98",
     "attributes" : [ "object", "anonymous" ],
     "id" : "143"
   }, {
-    "range" : "60",
+    "range" : "80",
     "domain" : "93",
     "attributes" : [ "object", "anonymous" ],
     "id" : "144"
   }, {
-    "range" : "60",
-    "domain" : "95",
+    "range" : "80",
+    "domain" : "92",
     "attributes" : [ "object", "anonymous" ],
     "id" : "145"
   }, {
-    "range" : "60",
-    "domain" : "94",
+    "range" : "80",
+    "domain" : "82",
     "attributes" : [ "object", "anonymous" ],
     "id" : "146"
   }, {
-    "range" : "60",
-    "domain" : "91",
+    "range" : "80",
+    "domain" : "81",
     "attributes" : [ "object", "anonymous" ],
     "id" : "147"
   }, {
-    "range" : "60",
-    "domain" : "59",
+    "range" : "80",
+    "domain" : "91",
     "attributes" : [ "object", "anonymous" ],
     "id" : "148"
   }, {
-    "range" : "60",
-    "domain" : "57",
+    "range" : "80",
+    "domain" : "83",
     "attributes" : [ "object", "anonymous" ],
     "id" : "149"
   }, {
-    "range" : "60",
-    "domain" : "92",
+    "range" : "84",
+    "domain" : "87",
     "attributes" : [ "object", "anonymous" ],
     "id" : "150"
   }, {
-    "range" : "60",
-    "domain" : "88",
+    "range" : "84",
+    "domain" : "23",
     "attributes" : [ "object", "anonymous" ],
     "id" : "151"
   }, {
-    "range" : "60",
-    "domain" : "87",
+    "range" : "80",
+    "domain" : "79",
     "attributes" : [ "object", "anonymous" ],
     "id" : "152"
   }, {
-    "range" : "60",
-    "domain" : "90",
+    "range" : "84",
+    "domain" : "88",
     "attributes" : [ "object", "anonymous" ],
     "id" : "153"
   }, {
-    "range" : "60",
-    "domain" : "89",
+    "range" : "100",
+    "domain" : "101",
     "attributes" : [ "object", "anonymous" ],
     "id" : "154"
   }, {
-    "range" : "60",
-    "domain" : "86",
+    "range" : "100",
+    "domain" : "99",
     "attributes" : [ "object", "anonymous" ],
     "id" : "155"
   }, {
-    "range" : "60",
-    "domain" : "85",
+    "range" : "29",
+    "domain" : "157",
     "attributes" : [ "object", "anonymous" ],
     "id" : "156"
   }, {
-    "range" : "60",
-    "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "157"
-  }, {
-    "range" : "62",
-    "domain" : "82",
+    "range" : "110",
+    "domain" : "33",
     "attributes" : [ "object", "anonymous" ],
     "id" : "158"
   }, {
-    "range" : "62",
-    "domain" : "79",
+    "range" : "88",
+    "domain" : "27",
     "attributes" : [ "object", "anonymous" ],
     "id" : "159"
   }, {
-    "range" : "60",
-    "domain" : "84",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "160"
-  }, {
-    "range" : "62",
-    "domain" : "83",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "161"
-  }, {
-    "range" : "29",
-    "domain" : "71",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "162"
-  }, {
-    "range" : "29",
-    "domain" : "70",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "163"
-  }, {
-    "range" : "62",
-    "domain" : "81",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "164"
-  }, {
-    "range" : "62",
-    "domain" : "80",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "165"
-  }, {
-    "range" : "28",
-    "domain" : "105",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "167"
-  }, {
-    "range" : "28",
-    "domain" : "27",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "169"
-  }, {
-    "range" : "28",
-    "domain" : "107",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "170"
-  }, {
-    "range" : "28",
-    "domain" : "106",
+    "range" : "90",
+    "domain" : "100",
     "attributes" : [ "object", "anonymous" ],
     "id" : "171"
   }, {
-    "range" : "28",
-    "domain" : "104",
+    "range" : "90",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "range" : "90",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "range" : "90",
+    "domain" : "102",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "range" : "90",
+    "domain" : "105",
     "attributes" : [ "object", "anonymous" ],
     "id" : "175"
   }, {
-    "range" : "26",
-    "domain" : "53",
+    "range" : "90",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "range" : "85",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "177"
+  }, {
+    "range" : "85",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "range" : "85",
+    "domain" : "95",
     "attributes" : [ "object", "anonymous" ],
     "id" : "179"
   }, {
-    "range" : "26",
-    "domain" : "178",
+    "range" : "85",
+    "domain" : "90",
     "attributes" : [ "object", "anonymous" ],
     "id" : "180"
   }, {
-    "range" : "26",
-    "domain" : "174",
+    "range" : "85",
+    "domain" : "84",
     "attributes" : [ "object", "anonymous" ],
     "id" : "181"
   }, {
-    "range" : "26",
-    "domain" : "173",
+    "range" : "23",
+    "domain" : "22",
     "attributes" : [ "object", "anonymous" ],
     "id" : "182"
   }, {
-    "range" : "26",
-    "domain" : "177",
+    "range" : "85",
+    "domain" : "80",
     "attributes" : [ "object", "anonymous" ],
     "id" : "183"
   }, {
-    "range" : "26",
-    "domain" : "176",
+    "range" : "38",
+    "domain" : "165",
     "attributes" : [ "object", "anonymous" ],
     "id" : "184"
   }, {
-    "range" : "26",
-    "domain" : "166",
+    "range" : "38",
+    "domain" : "164",
     "attributes" : [ "object", "anonymous" ],
     "id" : "185"
   }, {
-    "range" : "67",
-    "domain" : "103",
+    "range" : "38",
+    "domain" : "167",
     "attributes" : [ "object", "anonymous" ],
     "id" : "186"
   }, {
-    "range" : "26",
-    "domain" : "172",
+    "range" : "38",
+    "domain" : "166",
     "attributes" : [ "object", "anonymous" ],
     "id" : "187"
   }, {
-    "range" : "26",
-    "domain" : "168",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "188"
-  }, {
-    "range" : "60",
-    "domain" : "101",
+    "range" : "24",
+    "domain" : "169",
     "attributes" : [ "object", "anonymous" ],
     "id" : "189"
   }, {
-    "range" : "60",
-    "domain" : "100",
+    "range" : "24",
+    "domain" : "191",
     "attributes" : [ "object", "anonymous" ],
     "id" : "190"
   }, {
-    "range" : "67",
-    "domain" : "102",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "191"
-  }, {
-    "range" : "60",
-    "domain" : "97",
+    "range" : "24",
+    "domain" : "170",
     "attributes" : [ "object", "anonymous" ],
     "id" : "192"
   }, {
-    "range" : "60",
-    "domain" : "96",
+    "range" : "24",
+    "domain" : "194",
     "attributes" : [ "object", "anonymous" ],
     "id" : "193"
   }, {
-    "range" : "60",
-    "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "194"
-  }, {
-    "range" : "60",
-    "domain" : "98",
+    "range" : "24",
+    "domain" : "196",
     "attributes" : [ "object", "anonymous" ],
     "id" : "195"
   }, {
-    "range" : "76",
-    "domain" : "197",
+    "range" : "24",
+    "domain" : "168",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "196"
+    "id" : "197"
   }, {
-    "range" : "76",
-    "domain" : "200",
+    "range" : "24",
+    "domain" : "199",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "199"
+    "id" : "198"
   }, {
-    "range" : "76",
-    "domain" : "43",
+    "range" : "22",
+    "domain" : "25",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "201"
+    "id" : "200"
   }, {
-    "range" : "76",
-    "domain" : "203",
+    "range" : "9",
+    "domain" : "8",
     "attributes" : [ "object", "anonymous" ],
     "id" : "202"
   }, {
-    "range" : "51",
-    "domain" : "59",
+    "range" : "9",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "range" : "9",
+    "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
     "id" : "204"
   }, {
-    "range" : "76",
-    "domain" : "198",
+    "range" : "9",
+    "domain" : "1",
     "attributes" : [ "object", "anonymous" ],
     "id" : "205"
   }, {
-    "range" : "32",
-    "domain" : "28",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "206"
-  }, {
-    "range" : "15",
-    "domain" : "21",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "207"
-  }, {
-    "range" : "22",
-    "domain" : "23",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "208"
-  }, {
-    "range" : "10",
-    "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "209"
-  }, {
-    "range" : "10",
-    "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "210"
-  }, {
-    "range" : "10",
-    "domain" : "27",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "211"
-  }, {
-    "range" : "10",
-    "domain" : "28",
+    "range" : "9",
+    "domain" : "31",
     "attributes" : [ "object", "anonymous" ],
     "id" : "212"
   }, {
-    "range" : "10",
-    "domain" : "29",
+    "range" : "9",
+    "domain" : "32",
     "attributes" : [ "object", "anonymous" ],
     "id" : "213"
   }, {
-    "range" : "49",
-    "domain" : "73",
+    "range" : "9",
+    "domain" : "33",
     "attributes" : [ "object", "anonymous" ],
     "id" : "214"
   }, {
-    "range" : "9",
-    "domain" : "11",
+    "range" : "8",
+    "domain" : "10",
     "attributes" : [ "object", "anonymous" ],
     "id" : "215"
   }, {
-    "range" : "15",
-    "domain" : "14",
+    "range" : "8",
+    "domain" : "11",
     "attributes" : [ "object", "anonymous" ],
     "id" : "216"
   }, {
-    "range" : "63",
-    "domain" : "120",
+    "range" : "24",
+    "domain" : "210",
     "attributes" : [ "object", "anonymous" ],
     "id" : "217"
   }, {
-    "range" : "63",
-    "domain" : "119",
+    "range" : "24",
+    "domain" : "68",
     "attributes" : [ "object", "anonymous" ],
     "id" : "218"
   }, {
-    "range" : "63",
-    "domain" : "122",
+    "range" : "24",
+    "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "219"
   }, {
-    "range" : "63",
-    "domain" : "121",
+    "range" : "24",
+    "domain" : "211",
     "attributes" : [ "object", "anonymous" ],
     "id" : "220"
   }, {
-    "range" : "63",
-    "domain" : "116",
+    "range" : "24",
+    "domain" : "208",
     "attributes" : [ "object", "anonymous" ],
     "id" : "221"
   }, {
-    "range" : "28",
-    "domain" : "115",
+    "range" : "24",
+    "domain" : "162",
     "attributes" : [ "object", "anonymous" ],
     "id" : "222"
   }, {
-    "range" : "63",
-    "domain" : "118",
+    "range" : "24",
+    "domain" : "209",
     "attributes" : [ "object", "anonymous" ],
     "id" : "223"
   }, {
-    "range" : "63",
-    "domain" : "117",
+    "range" : "24",
+    "domain" : "163",
     "attributes" : [ "object", "anonymous" ],
     "id" : "224"
   }, {
-    "range" : "28",
-    "domain" : "114",
+    "range" : "24",
+    "domain" : "207",
     "attributes" : [ "object", "anonymous" ],
     "id" : "225"
   }, {
-    "range" : "28",
-    "domain" : "113",
+    "range" : "24",
+    "domain" : "161",
     "attributes" : [ "object", "anonymous" ],
     "id" : "226"
   }, {
-    "range" : "28",
-    "domain" : "112",
+    "range" : "24",
+    "domain" : "22",
     "attributes" : [ "object", "anonymous" ],
     "id" : "227"
   }, {
-    "range" : "28",
-    "domain" : "109",
+    "range" : "24",
+    "domain" : "188",
     "attributes" : [ "object", "anonymous" ],
     "id" : "228"
   }, {
-    "range" : "28",
-    "domain" : "108",
+    "range" : "29",
+    "domain" : "201",
     "attributes" : [ "object", "anonymous" ],
     "id" : "229"
   }, {
-    "range" : "28",
-    "domain" : "111",
+    "range" : "24",
+    "domain" : "160",
     "attributes" : [ "object", "anonymous" ],
     "id" : "230"
   }, {
-    "range" : "28",
-    "domain" : "110",
+    "range" : "24",
+    "domain" : "206",
     "attributes" : [ "object", "anonymous" ],
     "id" : "231"
   } ]
