@@ -178,1364 +178,1377 @@
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000001 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001">
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000001">
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:09:52Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">academic discipline</rdfs:label>
+        <rdfs:label xml:lang="en">Academic Discipline</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000002 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000002">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000001"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:10:43Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">humanities</rdfs:label>
+        <rdfs:label xml:lang="en">Humanities</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000003 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000003 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000003">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000003">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000002"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:10:53Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">arts</rdfs:label>
+        <rdfs:label xml:lang="en">Arts</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000004 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000004 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000004">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000003"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000004">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000003"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:11:27Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">performing arts</rdfs:label>
+        <rdfs:label xml:lang="en">Performing Arts</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000005 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000005 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000005">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000003"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000005">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000003"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:12:12Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">visual arts</rdfs:label>
+        <rdfs:label xml:lang="en">Visual Arts</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000006 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000006 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000006">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000006">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000002"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:12:26Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">history</rdfs:label>
+        <rdfs:label xml:lang="en">History</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000007 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000007 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000007">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000007">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000002"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:14:37Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">languages and literature</rdfs:label>
+        <rdfs:label xml:lang="en">Languages and Literature</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000008 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000008 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000008">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000008">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000002"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:14:46Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">law</rdfs:label>
+        <rdfs:label xml:lang="en">Law</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000009 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000009 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000009">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000009">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000002"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:14:56Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">philosophy</rdfs:label>
+        <rdfs:label xml:lang="en">Philosophy</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000010 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000010 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000010">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000002"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000010">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000002"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:15:08Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">theology</rdfs:label>
+        <rdfs:label xml:lang="en">Theology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000011 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000011">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000001"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:15:25Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">social sciences</rdfs:label>
+        <rdfs:label xml:lang="en">Social Sciences</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000012 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000012 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000012">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000012">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000011"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:15:38Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">anthropology</rdfs:label>
+        <rdfs:label xml:lang="en">Anthropology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000013 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000013 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000013">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000013">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000011"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:15:48Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">archaeology</rdfs:label>
+        <rdfs:label xml:lang="en">Archaeology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000014 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000014 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000014">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000014">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000011"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:15:57Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">economics</rdfs:label>
+        <rdfs:label xml:lang="en">Economics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000015 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000015 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000015">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000015">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000011"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:16:09Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">human geography</rdfs:label>
+        <rdfs:label xml:lang="en">Human Geography</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000016 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000016 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000016">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000016">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000011"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:16:19Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">political science</rdfs:label>
+        <rdfs:label xml:lang="en">Political Science</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000017 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000017 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000017">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000017">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000011"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:16:32Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">psychology</rdfs:label>
+        <rdfs:label xml:lang="en">Psychology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000018 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000018 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000018">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000011"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000018">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000011"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:16:39Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">sociology</rdfs:label>
+        <rdfs:label xml:lang="en">Sociology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000019 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000019 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000019">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000019">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000001"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:16:57Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">natural sciences</rdfs:label>
+        <rdfs:label xml:lang="en">Natural Sciences</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000021 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000021 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000021">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000019"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000021">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000019"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:47:03Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">earth science</rdfs:label>
+        <rdfs:label xml:lang="en">Earth Science</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000022 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000022 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000022">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000019"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000022">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000019"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:47:16Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">space science</rdfs:label>
+        <rdfs:label xml:lang="en">Space Science</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000023 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000023 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000023">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000023">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000001"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:47:27Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">formal sciences</rdfs:label>
+        <rdfs:label xml:lang="en">Formal Sciences</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000024 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000024 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000024">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000024">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000001"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:47:36Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">applied sciences</rdfs:label>
+        <rdfs:label xml:lang="en">Applied Sciences</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000026 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000026 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000026">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000024"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000026">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000024"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:52:26Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">business</rdfs:label>
+        <rdfs:label xml:lang="en">Business</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000027 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000027 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000027">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000024"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000027">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000024"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-27T23:52:38Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">engineering and technology</rdfs:label>
+        <rdfs:label xml:lang="en">Engineering and Technology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000028 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000028 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000028">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000021"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000028">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000021"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-28T00:12:11Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">environmental science</rdfs:label>
+        <rdfs:label xml:lang="en">Environmental Science</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000029 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000029 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000029">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000028"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000029">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000028"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T21:23:09Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">environmental chemistry</rdfs:label>
+        <rdfs:label xml:lang="en">Environmental Chemistry</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000030 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000030 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000030">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3314"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000030">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0003314"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T21:24:44Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">geochemistry</rdfs:label>
+        <rdfs:label xml:lang="en">Geochemistry</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000031 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000031 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000031">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000021"/>
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000031">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000021"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000063"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T21:26:03Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">geodesy</rdfs:label>
+        <rdfs:label xml:lang="en">Geodesy</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000032 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000021"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000032">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000021"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T21:26:24Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">physical geography</rdfs:label>
+        <rdfs:label xml:lang="en">Physical Geography</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000033 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000033 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000033">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000033">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000032"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T21:27:17Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">atmospheric science</rdfs:label>
+        <rdfs:label xml:lang="en">Atmospheric Science</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000034 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000034 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000034">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000033"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000034">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000033"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T21:33:03Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">meteorology</rdfs:label>
+        <rdfs:label xml:lang="en">Meteorology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000035 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000035 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000035">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000033"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000035">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000033"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T21:33:03Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">climatology</rdfs:label>
+        <rdfs:label xml:lang="en">Climatology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000036 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000036 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000036">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000033"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000036">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000033"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T21:33:03Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">atmospheric physics</rdfs:label>
+        <rdfs:label xml:lang="en">Atmospheric Physics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000037 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000037 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000037">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000033"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000037">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000033"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T21:33:03Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">atmospheric chemistry</rdfs:label>
+        <rdfs:label xml:lang="en">Atmospheric Chemistry</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000038 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000038 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000038">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000033"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000038">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000033"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T21:33:03Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">atmospheric dynamics</rdfs:label>
+        <rdfs:label xml:lang="en">Atmospheric Dynamics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000039 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000039 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000039">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000039">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000032"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T21:37:23Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">biogeography</rdfs:label>
+        <rdfs:label xml:lang="en">Biogeography</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000040 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000040 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000040">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000039"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000040">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000039"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T21:37:48Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">phytogeography</rdfs:label>
+        <rdfs:label xml:lang="en">Phytogeography</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000041 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000041 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000041">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000039"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000041">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000039"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T21:38:18Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">zoogeography</rdfs:label>
+        <rdfs:label xml:lang="en">Zoogeography</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000043 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000043 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000043">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000035"/>
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000043">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000101"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T21:51:55Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">paleoclimatology</rdfs:label>
+        <rdfs:label xml:lang="en">Paleoclimatology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000044 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000044 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000044">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000044">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000032"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T21:54:46Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>palaeogeopgraphy</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>paleogeomorphology</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">paleogeography</rdfs:label>
+        <rdfs:label xml:lang="en">Paleogeography</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000045 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000045 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000045">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000045">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000032"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T21:57:51Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">coastal geography</rdfs:label>
+        <rdfs:label xml:lang="en">Coastal Geography</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000046 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000046 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000046">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000046">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000032"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:07:54Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">oceanography</rdfs:label>
+        <rdfs:label xml:lang="en">Oceanography</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000047 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000047 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000047">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000046"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000047">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000046"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0003070"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:08:16Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym xml:lang="en">marine biology</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">biological oceanography</rdfs:label>
+        <rdfs:label xml:lang="en">Biological Oceanography</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000048 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000048 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000048">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000046"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000048">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000046"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0003314"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:08:29Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">chemical oceanography</rdfs:label>
+        <rdfs:label xml:lang="en">Chemical Oceanography</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000049 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000049 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000049">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000046"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000049">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000046"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:08:43Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">geological oceanography</rdfs:label>
+        <rdfs:label xml:lang="en">Geological Oceanography</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000050 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000050 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000050">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000046"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000050">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000046"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:08:56Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">physical oceanography</rdfs:label>
+        <rdfs:label xml:lang="en">Physical Oceanography</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000051 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000051 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000051">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000046"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000051">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000046"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:10:48Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">paleoceanography</rdfs:label>
+        <rdfs:label xml:lang="en">Paleoceanography</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000052 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000052 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000052">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000052">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000032"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:12:06Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">soil science</rdfs:label>
+        <rdfs:label xml:lang="en">Soil Science</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000053 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000053 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000053">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000052"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000053">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000052"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:12:21Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">edaphology</rdfs:label>
+        <rdfs:label xml:lang="en">Edaphology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000054 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000054 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000054">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000052"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000054">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000052"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:12:30Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">pedology</rdfs:label>
+        <rdfs:label xml:lang="en">Pedology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000055 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000055 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000055">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000055">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000032"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0003070"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:15:11Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">geobiology</rdfs:label>
+        <rdfs:label xml:lang="en">Geobiology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000056 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000056">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000032"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:17:04Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">geology</rdfs:label>
+        <rdfs:label xml:lang="en">Geology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000057 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000057 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000057">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000057">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0003070"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">biogeology</rdfs:label>
+        <rdfs:label xml:lang="en">Biogeology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000058 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000058 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000058">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000058">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">economic geology</rdfs:label>
+        <rdfs:label xml:lang="en">Economic Geology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000059 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000059 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000059">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000059">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">engineering geology</rdfs:label>
+        <rdfs:label xml:lang="en">Engineering Geology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000060 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000060 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000060">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000060">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000028"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">environmental geology</rdfs:label>
+        <rdfs:label xml:lang="en">Environmental Geology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000061 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000061 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000061">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000061">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">geologic modeling</rdfs:label>
+        <rdfs:label xml:lang="en">Geologic Modeling</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000062 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000062 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000062">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000062">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">geomorphology</rdfs:label>
+        <rdfs:label xml:lang="en">Geomorphology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000063 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000021"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3318"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000063">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000021"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0003318"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">geophysics</rdfs:label>
+        <rdfs:label xml:lang="en">Geophysics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000064 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000064 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000064">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000064">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000006"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">historical geology</rdfs:label>
+        <rdfs:label xml:lang="en">Historical Geology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000065 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000065 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000065">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000065">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">marine geology</rdfs:label>
+        <rdfs:label xml:lang="en">Marine Geology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000066 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000066 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000066">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000066">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">mineralogy</rdfs:label>
+        <rdfs:label xml:lang="en">Mineralogy</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000067 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000067 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000067">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000067">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">mining geology</rdfs:label>
+        <rdfs:label xml:lang="en">Mining Geology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000069 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000069 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000069">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000069">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">petroleum geology</rdfs:label>
+        <rdfs:label xml:lang="en">Petroleum Geology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000070 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000070 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000070">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000070">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">petrology</rdfs:label>
+        <rdfs:label xml:lang="en">Petrology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000071 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000071 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000071">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000071">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">sedimentology</rdfs:label>
+        <rdfs:label xml:lang="en">Sedimentology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000072 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000072 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000072">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000072">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">stratigraphy</rdfs:label>
+        <rdfs:label xml:lang="en">Stratigraphy</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000073 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000073 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000073">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000073">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">structural geology</rdfs:label>
+        <rdfs:label xml:lang="en">Structural Geology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000074 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000074 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000074">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000074">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:22:05Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">volcanology</rdfs:label>
+        <rdfs:label xml:lang="en">Volcanology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000075 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000075 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000075">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000075">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:28:06Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">speleology</rdfs:label>
+        <rdfs:label xml:lang="en">Speleology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000076 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000076 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000076">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000076">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:28:15Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">tectonics</rdfs:label>
+        <rdfs:label xml:lang="en">Tectonics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000077 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000077 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000077">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_2269"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000077">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0002269"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:29:35Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">geostatistics</rdfs:label>
+        <rdfs:label xml:lang="en">Geostatistics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000078 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000078 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000078">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000078">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000032"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:30:49Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">glaciology</rdfs:label>
+        <rdfs:label xml:lang="en">Glaciology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000079 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000079">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000032"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:33:44Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">hydrology</rdfs:label>
+        <rdfs:label xml:lang="en">Hydrology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000080 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000080 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000080">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000080">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000079"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0003314"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:35:13Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">chemical hydrology</rdfs:label>
+        <rdfs:label xml:lang="en">Chemical Hydrology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000081 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000081 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000081">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000081">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000079"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000610"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:35:13Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">ecohydrology</rdfs:label>
+        <rdfs:label xml:lang="en">Ecohydrology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000082 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000082 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000082">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000082">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000079"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:35:13Z</oboInOwl:creation_date>
         <oboInOwl:hasRelatedSynonym xml:lang="en">geohydrology</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">groundwater hydrology</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">hydrogeology</rdfs:label>
+        <rdfs:label xml:lang="en">Hydrogeology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000083 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000083 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000083">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000083">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000079"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:35:13Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">hydroinformatics</rdfs:label>
+        <rdfs:label xml:lang="en">Hydroinformatics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000084 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000084 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000084">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000084">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000034"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000079"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:35:13Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">hydrometeorology</rdfs:label>
+        <rdfs:label xml:lang="en">Hydrometeorology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000085 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000085 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000085">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000085">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000079"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:35:13Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">isotope hydrology</rdfs:label>
+        <rdfs:label xml:lang="en">Isotope Hydrology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000086 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000086 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000086">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000079"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000086">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000079"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:35:13Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">surface hydrology</rdfs:label>
+        <rdfs:label xml:lang="en">Surface Hydrology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000087 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000087 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000087">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000087">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000032"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:36:44Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">limnology</rdfs:label>
+        <rdfs:label xml:lang="en">Limnology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000088 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000088 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000088">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0610"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000088">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000032"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000610"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:40:11Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">landscape ecology</rdfs:label>
+        <rdfs:label xml:lang="en">Landscape Ecology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000089 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000089 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000089">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000032"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000089">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000032"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:41:10Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">quaternary science</rdfs:label>
+        <rdfs:label xml:lang="en">Quaternary Science</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000090 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000090 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000090">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000090">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000063"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:49:19Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">biogeophysics</rdfs:label>
+        <rdfs:label xml:lang="en">Biogeophysics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000091 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000091 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000091">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000091">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000063"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:49:19Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">exploration geophysics</rdfs:label>
+        <rdfs:label xml:lang="en">Exploration Geophysics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000092 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000092 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000092">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000092">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000063"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:49:19Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">geophysical fluid dynamics</rdfs:label>
+        <rdfs:label xml:lang="en">Geophysical Fluid Dynamics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000093 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000093 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000093">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000093">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000063"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:49:19Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">geodynamics</rdfs:label>
+        <rdfs:label xml:lang="en">Geodynamics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000094 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000094 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000094">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000094">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000063"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:49:19Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">geomagnetism</rdfs:label>
+        <rdfs:label xml:lang="en">Geomagnetism</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000095 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000095 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000095">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000095">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000063"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:49:19Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">mathematical geophysics</rdfs:label>
+        <rdfs:label xml:lang="en">Mathematical Geophysics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000096 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000096 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000096">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000096">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000063"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:49:19Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">mineral physics</rdfs:label>
+        <rdfs:label xml:lang="en">Mineral Physics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000097 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000097 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000097">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000097">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000063"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:49:19Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">near-surface geophysics</rdfs:label>
+        <rdfs:label xml:lang="en">Near-Surface Geophysics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000098 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000098 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000098">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000098">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000063"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:49:19Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">paleomagnetism</rdfs:label>
+        <rdfs:label xml:lang="en">Paleomagnetism</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000099 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000099 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000099">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000099">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000063"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:49:19Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">seisomology</rdfs:label>
+        <rdfs:label xml:lang="en">Seisomology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000100 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000100 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000100">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000100">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000063"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:49:19Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">tectonophysics</rdfs:label>
+        <rdfs:label xml:lang="en">Tectonophysics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000101 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000021"/>
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000056"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000101">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000021"/>
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000056"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T22:59:24Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">paleontology</rdfs:label>
+        <rdfs:label xml:lang="en">Paleontology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000102 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000102 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000102">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000102">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000101"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T23:01:44Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">vertebrate paleontology</rdfs:label>
+        <rdfs:label xml:lang="en">Vertebrate Paleontology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000103 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000103 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000103">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000103">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000101"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T23:01:55Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">invertebrate paleontology</rdfs:label>
+        <rdfs:label xml:lang="en">Invertebrate Paleontology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000104 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000104 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000104">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000104">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000101"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T23:03:31Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">paleobotany</rdfs:label>
+        <rdfs:label xml:lang="en">Paleobotany</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000105 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000105 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000105">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000105">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000101"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T23:03:31Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">palynology</rdfs:label>
+        <rdfs:label xml:lang="en">Palynology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000106 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000106 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000106">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000106">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000101"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T23:03:31Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">micropaleontology</rdfs:label>
+        <rdfs:label xml:lang="en">Micropaleontology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000107 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000107 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000107">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000107">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000101"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T23:03:31Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">paleoecology</rdfs:label>
+        <rdfs:label xml:lang="en">Paleoecology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000108 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000108 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000108">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000108">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000101"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T23:03:31Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">biostratigraphy</rdfs:label>
+        <rdfs:label xml:lang="en">Biostratigraphy</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000109 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000109 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000109">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000101"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000109">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000101"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T23:05:08Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">paleobiology</rdfs:label>
+        <rdfs:label xml:lang="en">Paleobiology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000188 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000188 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000188">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000001"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000188">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000001"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-06T22:42:53Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">discipline agnostic</rdfs:label>
+        <rdfs:label xml:lang="en">Discipline Agnostic</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000189 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000189 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000189">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000030"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000189">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000030"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-18T23:32:20Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">geochronology</rdfs:label>
+        <rdfs:label xml:lang="en">Geochronology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000190 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000190 -->
 
 
-    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000190">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000063"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000190">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000063"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-30T21:51:54Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">magnetotellurics</rdfs:label>
+        <rdfs:label xml:lang="en">Magnetotellurics</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/topic_0610 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0000610 -->
 
 
-    <owl:Class rdf:about="http://edamontology.org/topic_0610">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3070"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0000610">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0003070"/>
         <rdfs:isDefinedBy rdf:resource="http://edamontology.org/topic_0610"/>
-        <rdfs:label>ecology</rdfs:label>
+        <rdfs:label>Ecology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/topic_2269 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0002269 -->
 
 
-    <owl:Class rdf:about="http://edamontology.org/topic_2269">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000023"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0002269">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000023"/>
         <rdfs:isDefinedBy rdf:resource="http://edamontology.org/topic_2269"/>
-        <rdfs:label xml:lang="en">statistics and probability</rdfs:label>
+        <rdfs:label xml:lang="en">Statistics and Probability</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/topic_3070 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0003070 -->
 
 
-    <owl:Class rdf:about="http://edamontology.org/topic_3070">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000019"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0003070">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000019"/>
         <rdfs:isDefinedBy rdf:resource="http://edamontology.org/topic_3070"/>
-        <rdfs:label>biology</rdfs:label>
+        <rdfs:label>Biology</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/topic_3314 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0003314 -->
 
 
-    <owl:Class rdf:about="http://edamontology.org/topic_3314">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000019"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0003314">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000019"/>
         <rdfs:isDefinedBy rdf:resource="http://edamontology.org/topic_3314"/>
-        <rdfs:label rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/chemistry"/>
+        <rdfs:label>Chemistry</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://edamontology.org/topic_3318 -->
+    <!-- http://cor.esipfed.org/ont/earthcube/ADO_0003318 -->
 
 
-    <owl:Class rdf:about="http://edamontology.org/topic_3318">
-        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO/ADO__0000019"/>
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/ADO_0003318">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/ADO_0000019"/>
         <rdfs:isDefinedBy rdf:resource="http://edamontology.org/topic_3318"/>
-        <rdfs:label xml:lang="en">physics</rdfs:label>
+        <rdfs:label xml:lang="en">Physics</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
